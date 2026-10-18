@@ -86,3 +86,21 @@ tr:last-child td { border-bottom: 0; }
 #fam-chart .legend.off { opacity: .35; }
 footer { padding: 16px; border-top: 1px solid var(--line); }
 .loading { color: var(--muted); font-style: italic; padding: 8px 0; }
+
+#all-q { padding: 6px 10px; border: 1px solid var(--line); border-radius: 6px; background: var(--card); color: var(--fg); font-family: var(--mono); width: 260px; }
+#pager { display: flex; gap: 10px; align-items: center; margin-top: 10px; }
+#pager button { border: 1px solid var(--line); background: var(--card); color: var(--fg); border-radius: 6px; padding: 3px 10px; cursor: pointer; }
+#pager button:disabled { opacity: .4; cursor: default; }
+#tree { position: relative; border: 1px solid var(--line); border-radius: 10px; background: radial-gradient(circle at 50% 50%, var(--accent-soft) 0, var(--card) 55%); overflow: hidden; }
+#tree svg { width: 100%; height: 640px; display: block; cursor: grab; }
+#tree .pl { fill: none; stroke-opacity: .55; }
+#tree .pn circle { stroke: var(--card); stroke-width: 1.5; }
+#tree .pn.root circle { stroke: #d4a017; stroke-width: 2.5; }
+#tree .pn.ghost circle { fill: none; stroke: var(--muted); stroke-dasharray: 2 2; }
+#tree .pn.me circle { stroke: var(--fg); stroke-width: 3; }
+#tree .pn text { font: 11px var(--mono); fill: var(--fg); paint-order: stroke; stroke: var(--card); stroke-width: 3px; stroke-linejoin: round; }
+#tree .pn.me text { font-weight: 700; font-size: 13px; }
+#tree .pn.more text { fill: var(--accent); }
+#tree .pn { cursor: pointer; }
+#tree .axis { fill: var(--muted); font-size: 11px; letter-spacing: .08em; text-transform: uppercase; }
+#xtip { position: absolute; pointer-events: none; display: none; background: var(--card); border: 1px solid var(--line); border-radius: 6px; padding: 5px 8px; font: 12px var(--mono); max-width: 360px; word-break: break-all; box-shadow: 0 6px 18px rgba(0,0,0,.15); z-index: 2; }

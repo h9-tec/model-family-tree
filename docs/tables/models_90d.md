@@ -348,9 +348,9 @@
 | 344 | [ReadyArt/Forgotten-Safeword-24B](https://huggingface.co/ReadyArt/Forgotten-Safeword-24B) | 344 | 14 | 68 | 11 / 0 / 261 / 72 | forgotten-safeword |
 | 345 | [ReadyArt/4.2.0-Broken-Tutu-24b](https://huggingface.co/ReadyArt/4.2.0-Broken-Tutu-24b) | 219 | 15 | 68 | 11 / 0 / 172 / 36 | cydonia |
 | 346 | [zerofata/MS3.2-PaintedFantasy-v3-24B](https://huggingface.co/zerofata/MS3.2-PaintedFantasy-v3-24B) | 302 | 31 | 68 | 14 / 0 / 244 / 44 | Mistral |
-| 347 | [Casual-Autopsy/Maginum-Cydoms-24B](https://huggingface.co/Casual-Autopsy/Maginum-Cydoms-24B) | 156 | 17 | 68 | 10 / 0 / 120 / 26 | Mistral |
+| 347 | [Casual-Autopsy/Maginum-Cydoms-24B](https://huggingface.co/Casual-Autopsy/Maginum-Cydoms-24B) | 156 | 17 | 68 | 10 / 0 / 120 / 26 | cydonia |
 | 348 | [AuriAetherwiing/G4-31B-Musica-v1](https://huggingface.co/AuriAetherwiing/G4-31B-Musica-v1) | 188 | 19 | 68 | 3 / 0 / 143 / 42 | Gemma 4 |
-| 349 | [DarkArtsForge/Paimon-24B-v2](https://huggingface.co/DarkArtsForge/Paimon-24B-v2) | 69 | 3 | 68 | 5 / 0 / 51 / 13 | blackxordolphtrongoat |
+| 349 | [DarkArtsForge/Paimon-24B-v2](https://huggingface.co/DarkArtsForge/Paimon-24B-v2) | 69 | 3 | 68 | 5 / 0 / 51 / 13 | Mistral |
 | 350 | [mistralai/Mistral-7B-v0.1](https://huggingface.co/mistralai/Mistral-7B-v0.1) | 11,598 | 4,012 | 67 | 2,971 / 5,190 / 2,057 / 1,365 | Mistral |
 | 351 | [ReadyArt/Dark-Scarlett-v1.0-26B-A4B](https://huggingface.co/ReadyArt/Dark-Scarlett-v1.0-26B-A4B) | 86 | 13 | 67 | 3 / 17 / 54 / 12 | Gemma 4 |
 | 352 | [OnomaAIResearch/Illustrious-xl-early-release-v0](https://huggingface.co/OnomaAIResearch/Illustrious-xl-early-release-v0) | 4,589 | 3,074 | 67 | 2,878 / 1,071 / 22 / 618 | kohaku |
@@ -388,10 +388,10 @@
 | 384 | [microsoft/MiniLM-L12-H384-uncased](https://huggingface.co/microsoft/MiniLM-L12-H384-uncased) | 446 | 164 | 61 | 349 / 2 / 95 / 0 | minilm-l12-h384 |
 | 385 | [LiquidAI/LFM2.5-230M](https://huggingface.co/LiquidAI/LFM2.5-230M) | 133 | 92 | 61 | 59 / 13 / 61 / 0 | lfm2.5 |
 | 386 | [InternScience/Agents-A1-4B](https://huggingface.co/InternScience/Agents-A1-4B) | 69 | 44 | 61 | 14 / 5 / 42 / 8 | agents-a1 |
-| 387 | [MuXodious/Maginum-Cydoms-24B-absolute-heresy](https://huggingface.co/MuXodious/Maginum-Cydoms-24B-absolute-heresy) | 72 | 6 | 61 | 5 / 0 / 54 / 13 | Mistral |
+| 387 | [MuXodious/Maginum-Cydoms-24B-absolute-heresy](https://huggingface.co/MuXodious/Maginum-Cydoms-24B-absolute-heresy) | 72 | 6 | 61 | 5 / 0 / 54 / 13 | cydonia |
 | 388 | [unsloth/gemma-4-26B-A4B-it](https://huggingface.co/unsloth/gemma-4-26B-A4B-it) | 134 | 63 | 61 | 34 / 31 / 62 / 7 | Gemma 4 |
-| 389 | [Naphula/Slimaki-24B-v1.2](https://huggingface.co/Naphula/Slimaki-24B-v1.2) | 74 | 9 | 61 | 5 / 0 / 56 / 13 | Mistral |
-| 390 | [Naphula/Slimaki-Tavern-24B-v1.3](https://huggingface.co/Naphula/Slimaki-Tavern-24B-v1.3) | 66 | 8 | 61 | 5 / 0 / 49 / 12 | Mistral |
+| 389 | [Naphula/Slimaki-24B-v1.2](https://huggingface.co/Naphula/Slimaki-24B-v1.2) | 74 | 9 | 61 | 5 / 0 / 56 / 13 | cydonia |
+| 390 | [Naphula/Slimaki-Tavern-24B-v1.3](https://huggingface.co/Naphula/Slimaki-Tavern-24B-v1.3) | 66 | 8 | 61 | 5 / 0 / 49 / 12 | cydonia |
 | 391 | [Qwen/Qwen3-TTS-12Hz-0.6B-Base](https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-Base) | 103 | 98 | 60 | 37 / 24 / 42 / 0 | qwen3-tts |
 | 392 | [ibm-granite/granite-4.2-30b](https://huggingface.co/ibm-granite/granite-4.2-30b) | 60 | 55 | 60 | 14 / 1 / 45 / 0 | granite-4.1 |
 | 393 | [Delta-Vector/Rei-24B-KTO](https://huggingface.co/Delta-Vector/Rei-24B-KTO) | 147 | 22 | 60 | 7 / 0 / 112 / 28 | Mistral |
@@ -403,7 +403,7 @@
 | 399 | [zerofata/MS3.2-PaintedFantasy-24B](https://huggingface.co/zerofata/MS3.2-PaintedFantasy-24B) | 198 | 14 | 60 | 9 / 3 / 149 / 37 | Mistral |
 | 400 | [Delta-Vector/Rei-24B-Base](https://huggingface.co/Delta-Vector/Rei-24B-Base) | 152 | 5 | 60 | 8 / 0 / 116 / 28 | Mistral |
 | 401 | [DavidAU/Qwen3.5-27B-Claude-4.6-OS-INSTRUCT](https://huggingface.co/DavidAU/Qwen3.5-27B-Claude-4.6-OS-INSTRUCT) | 93 | 52 | 60 | 1 / 60 / 24 / 8 | Qwen3.5 |
-| 402 | [DarkArtsForge/Paimon-24B-v3](https://huggingface.co/DarkArtsForge/Paimon-24B-v3) | 61 | 3 | 60 | 5 / 0 / 44 / 12 | cydonia |
+| 402 | [DarkArtsForge/Paimon-24B-v3](https://huggingface.co/DarkArtsForge/Paimon-24B-v3) | 61 | 3 | 60 | 5 / 0 / 44 / 12 | Mistral |
 | 403 | [marsplan0624/affine-5gedzafcvg-queen](https://huggingface.co/marsplan0624/affine-5gedzafcvg-queen) | 60 | 60 | 60 | 12 / 48 / 0 / 0 | affine |
 | 404 | [Qwen/Qwen-Image-2.1-Turbo](https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo) | 59 | 59 | 59 | 14 / 3 / 42 / 0 | qwen-image-2.1 |
 | 405 | [openbmb/VoxCPM2](https://huggingface.co/openbmb/VoxCPM2) | 94 | 88 | 59 | 41 / 34 / 19 / 0 | voxcpm2 |
@@ -426,7 +426,7 @@
 | 422 | [OddTheGreat/Circuitry_24B_V.3](https://huggingface.co/OddTheGreat/Circuitry_24B_V.3) | 94 | 7 | 58 | 6 / 0 / 72 / 16 | Mistral |
 | 423 | [LatitudeGames/Hearthfire-24B](https://huggingface.co/LatitudeGames/Hearthfire-24B) | 150 | 21 | 58 | 8 / 0 / 119 / 23 | Mistral |
 | 424 | [DarkArtsForge/Asmodeus-24B-v1](https://huggingface.co/DarkArtsForge/Asmodeus-24B-v1) | 69 | 6 | 58 | 5 / 0 / 51 / 13 | Mistral |
-| 425 | [DarkArtsForge/Morax-24B-v1](https://huggingface.co/DarkArtsForge/Morax-24B-v1) | 101 | 14 | 58 | 6 / 0 / 77 / 18 | beaverai-fallen-mistral |
+| 425 | [DarkArtsForge/Morax-24B-v1](https://huggingface.co/DarkArtsForge/Morax-24B-v1) | 101 | 14 | 58 | 6 / 0 / 77 / 18 | Mistral |
 | 426 | [CrucibleLab/M3.2-24B-Loki-V2](https://huggingface.co/CrucibleLab/M3.2-24B-Loki-V2) | 123 | 8 | 58 | 8 / 0 / 97 / 18 | Mistral |
 | 427 | [Naphula/Slimaki-24B-v1](https://huggingface.co/Naphula/Slimaki-24B-v1) | 84 | 12 | 58 | 5 / 0 / 64 / 15 | Mistral |
 | 428 | [Naphula/Goetia-24B-v1.3](https://huggingface.co/Naphula/Goetia-24B-v1.3) | 80 | 13 | 58 | 6 / 0 / 61 / 13 | Mistral |
@@ -437,7 +437,7 @@
 | 433 | [facebook/wav2vec2-large-xlsr-53](https://huggingface.co/facebook/wav2vec2-large-xlsr-53) | 448 | 410 | 57 | 438 / 1 / 9 / 0 | wav2vec 2.0 |
 | 434 | [Qwen/Qwen2.5-Omni-7B](https://huggingface.co/Qwen/Qwen2.5-Omni-7B) | 182 | 164 | 57 | 86 / 62 / 32 / 2 | qwen2.5-omni |
 | 435 | [Jackrong/Qwopus3.5-9B-Coder](https://huggingface.co/Jackrong/Qwopus3.5-9B-Coder) | 78 | 45 | 57 | 4 / 13 / 35 / 26 | Qwen3.5 |
-| 436 | [DarkArtsForge/Morbid-Miasma-24B](https://huggingface.co/DarkArtsForge/Morbid-Miasma-24B) | 58 | 9 | 57 | 5 / 0 / 42 / 11 | cydonia |
+| 436 | [DarkArtsForge/Morbid-Miasma-24B](https://huggingface.co/DarkArtsForge/Morbid-Miasma-24B) | 58 | 9 | 57 | 5 / 0 / 42 / 11 | Mistral |
 | 437 | [JANGQ-AI/GLM-5.3-FP8](https://huggingface.co/JANGQ-AI/GLM-5.3-FP8) † | 57 | 41 | 57 | 3 / 0 / 54 / 0 | glm-5.3 |
 | 438 | [nvidia/NVIDIA-Nemotron-Nano-12B-v2-Base](https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-12B-v2-Base) | 237 | 5 | 56 | 93 / 22 / 121 / 1 | nvidia-nemotron |
 | 439 | [ReadyArt/Dark-Scarlett-v2.0-31B](https://huggingface.co/ReadyArt/Dark-Scarlett-v2.0-31B) | 58 | 13 | 56 | 0 / 0 / 47 / 11 | Gemma 4 |

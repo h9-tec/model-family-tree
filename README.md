@@ -1,8 +1,8 @@
 <div align="center">
 
-<a href="https://h9-tec.github.io/model-family-tree/"><img src="assets/families.svg" alt="Cumulative descendants per model family over the last 24 months" width="100%"/></a>
+<a href="https://h9-tec.github.io/model-family-tree/galaxy.html"><img src="assets/galaxy.png" alt="The Model Galaxy: every Hugging Face model with an ancestor or a descendant, as one zoomable map. Families are clusters, base models are stars, derivatives are the dots around them." width="100%"/></a>
 
-**[Open the interactive explorer →](https://h9-tec.github.io/model-family-tree/)** · search any model, walk its ancestors and children, share a link.
+**[Fly through the Model Galaxy →](https://h9-tec.github.io/model-family-tree/galaxy.html)** · 985,399+ models in one zoomable WebGL map · **[Explorer →](https://h9-tec.github.io/model-family-tree/)** · search any model, walk its pedigree, share a link.
 
 # Open Model Family Tree
 
@@ -39,6 +39,16 @@ Requires [uv](https://docs.astral.sh/uv/) on PATH. Then ask Claude: *what is uns
 Tools: `lineage(id)`, `children(id)`, `leaderboard(kind)`, `family(name)`, `search(query)`.
 
 </details>
+
+## See it
+
+| | |
+|---|---|
+| **[Galaxy](https://h9-tec.github.io/model-family-tree/galaxy.html)** | Every model that has an ancestor or a descendant (985,399+ points) in one WebGL map. Families are circle-packed clusters, base models are stars, each derivative is a dot colored by relation and sized by downloads. Scroll to zoom from the whole Hub down to one model, click any dot. |
+| **[Explorer](https://h9-tec.github.io/model-family-tree/)** | Type any model id. Its pedigree is drawn as a radial tree: every ancestor path fans out to the left (merges show all parents), the most downloaded descendants to the right, unfoldable level by level, live from the Hub. |
+| **[Leaderboard](https://h9-tec.github.io/model-family-tree/#board:all)** | All 88,174 models with descendants, sortable and filterable, plus the curated views below. |
+
+<a href="assets/families.svg"><img src="assets/families.svg" alt="Cumulative descendants per model family over the last 24 months" width="100%"/></a>
 
 ## Most-descended base models
 
@@ -198,7 +208,8 @@ Descendants of every root owned by the organization, deduplicated. [Full table �
 2. **Graph.** Child → parent edges with the declared relation (`finetune`, `adapter`, `quantized`, `merge`). Merges give a DAG, mis-tagged cards give the occasional cycle (67 nodes today); both are handled.
 3. **Counts.** Descendant sets are built children-first and unioned, so every model is counted once per ancestor. `direct` is declared children; `total` is the whole subtree.
 4. **Families.** Roots (models that declare no parent) are grouped by a series heuristic over the model name, with overrides in `data/families.yaml`.
-5. **Refresh.** A GitHub Action rebuilds everything nightly, commits `dist/` and `README.md`, and attaches the full node and edge tables to the [`data-latest`](https://github.com/h9-tec/model-family-tree/releases/tag/data-latest) release.
+5. **Galaxy layout.** Each root's subtree is a radial tree (depth rings sized by population, wedges by subtree size); roots are circle-packed inside their family and families into the galaxy, with a port of d3's front-chain packing. Positions ship as a 10 MB binary, ids load lazily in chunks.
+6. **Refresh.** A GitHub Action rebuilds everything nightly, commits `dist/` and `README.md`, and attaches the full node and edge tables plus the galaxy data to the [`data-latest`](https://github.com/h9-tec/model-family-tree/releases/tag/data-latest) release, which the site reads.
 
 ### Caveats
 

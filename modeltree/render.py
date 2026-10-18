@@ -148,9 +148,9 @@ def readme(lb: dict, stats: dict, date: str) -> str:
     pct = 100 * s["with_ancestry"] / s["models"]
     return f"""<div align="center">
 
-<a href="{SITE}"><img src="assets/families.svg" alt="Cumulative descendants per model family over the last 24 months" width="100%"/></a>
+<a href="{SITE}galaxy.html"><img src="assets/galaxy.png" alt="The Model Galaxy: every Hugging Face model with an ancestor or a descendant, as one zoomable map. Families are clusters, base models are stars, derivatives are the dots around them." width="100%"/></a>
 
-**[Open the interactive explorer →]({SITE})** · search any model, walk its ancestors and children, share a link.
+**[Fly through the Model Galaxy →]({SITE}galaxy.html)** · {n(s['parents'] + s['with_ancestry'])}+ models in one zoomable WebGL map · **[Explorer →]({SITE})** · search any model, walk its pedigree, share a link.
 
 # Open Model Family Tree
 
@@ -188,6 +188,16 @@ Tools: `lineage(id)`, `children(id)`, `leaderboard(kind)`, `family(name)`, `sear
 
 </details>
 
+## See it
+
+| | |
+|---|---|
+| **[Galaxy]({SITE}galaxy.html)** | Every model that has an ancestor or a descendant ({n(s['with_ancestry'] + s['parents'])}+ points) in one WebGL map. Families are circle-packed clusters, base models are stars, each derivative is a dot colored by relation and sized by downloads. Scroll to zoom from the whole Hub down to one model, click any dot. |
+| **[Explorer]({SITE})** | Type any model id. Its pedigree is drawn as a radial tree: every ancestor path fans out to the left (merges show all parents), the most downloaded descendants to the right, unfoldable level by level, live from the Hub. |
+| **[Leaderboard]({SITE}#board:all)** | All {n(s['parents'])} models with descendants, sortable and filterable, plus the curated views below. |
+
+<a href="assets/families.svg"><img src="assets/families.svg" alt="Cumulative descendants per model family over the last 24 months" width="100%"/></a>
+
 ## Most-descended base models
 
 Unique descendants of every kind: finetunes, adapters (LoRA), quantizations and merges, each counted once however many paths reach it. † marks a base that was deleted or made private but is still referenced. [Full top 500 →](docs/tables/models_all_time.md)
@@ -221,7 +231,8 @@ Descendants of every root owned by the organization, deduplicated. [Full table �
 2. **Graph.** Child → parent edges with the declared relation (`finetune`, `adapter`, `quantized`, `merge`). Merges give a DAG, mis-tagged cards give the occasional cycle ({n(s['cyclic_nodes'])} nodes today); both are handled.
 3. **Counts.** Descendant sets are built children-first and unioned, so every model is counted once per ancestor. `direct` is declared children; `total` is the whole subtree.
 4. **Families.** Roots (models that declare no parent) are grouped by a series heuristic over the model name, with overrides in `data/families.yaml`.
-5. **Refresh.** A GitHub Action rebuilds everything nightly, commits `dist/` and `README.md`, and attaches the full node and edge tables to the [`data-latest`](https://github.com/{REPO}/releases/tag/data-latest) release.
+5. **Galaxy layout.** Each root's subtree is a radial tree (depth rings sized by population, wedges by subtree size); roots are circle-packed inside their family and families into the galaxy, with a port of d3's front-chain packing. Positions ship as a 10 MB binary, ids load lazily in chunks.
+6. **Refresh.** A GitHub Action rebuilds everything nightly, commits `dist/` and `README.md`, and attaches the full node and edge tables plus the galaxy data to the [`data-latest`](https://github.com/{REPO}/releases/tag/data-latest) release, which the site reads.
 
 ### Caveats
 

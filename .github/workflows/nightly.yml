@@ -27,6 +27,13 @@ jobs:
             "https://huggingface.co/datasets/cfahlgren1/hub-stats/resolve/main/models.parquet"
       - run: uv run python scripts/build.py all --source .cache/hub-stats/models.parquet --date "$(date -u +%F)"
       - run: uv run python scripts/build.py check
+      - name: Publish the full graph and the galaxy as release assets
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          tar -czf galaxy.tar.gz -C dist galaxy
+          gh release view data-latest >/dev/null 2>&1 || gh release create data-latest --title "Full graph (rolling)" --notes "nodes.parquet, edges.parquet and galaxy.tar.gz from the latest nightly build. Replaced every night."
+          gh release upload data-latest .cache/nodes.parquet .cache/edges.parquet galaxy.tar.gz --clobber
       - name: Commit and push if changed
         run: |
           git add README.md dist docs assets
@@ -35,9 +42,3 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -m "chore: nightly refresh $(date -u +%F)"
           git push
-      - name: Publish the full graph as a release asset
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          gh release view data-latest >/dev/null 2>&1 || gh release create data-latest --title "Full graph (rolling)" --notes "nodes.parquet and edges.parquet from the latest nightly build. Replaced every night."
-          gh release upload data-latest .cache/nodes.parquet .cache/edges.parquet --clobber

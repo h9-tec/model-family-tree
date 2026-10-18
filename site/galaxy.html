@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Model Galaxy</title>
+<meta name="description" content="Every model on the Hugging Face Hub that has an ancestor or a descendant, laid out as one zoomable galaxy: families are clusters, base models are stars, derivatives are the dots around them.">
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌌</text></svg>">
+<style>
+  html, body { height: 100%; overflow: hidden; background: #07070c; color: #e8e8ee; }
+  #stage { position: fixed; inset: 0; }
+  #gl, #labels { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+  #labels { pointer-events: none; }
+  .hud { position: fixed; z-index: 3; font-size: 13px; }
+  #top { top: 0; left: 0; right: 0; display: flex; align-items: center; gap: 14px; padding: 10px 14px; background: linear-gradient(rgba(7,7,12,.92), rgba(7,7,12,0)); flex-wrap: wrap; }
+  #top .title { font-weight: 700; font-size: 17px; color: #fff; }
+  #top .sub { color: #9a9aa6; }
+  #top a { color: #7fd3de; }
+  #gq { width: min(420px, 60vw); padding: 7px 10px; border-radius: 8px; border: 1px solid #2c2c36; background: #15151c; color: #fff; font-family: var(--mono); font-size: 13px; }
+  #gq:focus { outline: 2px solid #4fc3d1; border-color: transparent; }
+  #gsuggest { position: absolute; top: 100%; margin: 0; padding: 4px 0; list-style: none; background: #15151c; border: 1px solid #2c2c36; border-radius: 8px; max-height: 300px; overflow: auto; min-width: 360px; }
+  #gsuggest li { padding: 5px 10px; cursor: pointer; font-family: var(--mono); font-size: 12px; display: flex; justify-content: space-between; gap: 10px; }
+  #gsuggest li:hover, #gsuggest li.on { background: #24303a; }
+  #legend { left: 14px; bottom: 14px; background: rgba(15,15,22,.85); border: 1px solid #2c2c36; border-radius: 10px; padding: 10px 12px; backdrop-filter: blur(6px); }
+  #legend .row { display: flex; align-items: center; gap: 8px; margin: 3px 0; }
+  #legend .dot { width: 10px; height: 10px; border-radius: 50%; box-shadow: 0 0 6px currentColor; }
+  #legend .muted { color: #9a9aa6; }
+  #card { right: 14px; bottom: 14px; width: min(380px, calc(100vw - 28px)); background: rgba(15,15,22,.92); border: 1px solid #2c2c36; border-radius: 10px; padding: 12px 14px; backdrop-filter: blur(6px); }
+  #card h3 { margin: 0 0 6px; font-family: var(--mono); font-size: 14px; word-break: break-all; }
+  #card .k { color: #9a9aa6; }
+  #card a { color: #7fd3de; }
+  #tip { position: fixed; z-index: 4; pointer-events: none; background: rgba(15,15,22,.92); border: 1px solid #2c2c36; border-radius: 6px; padding: 4px 8px; font: 12px var(--mono); color: #fff; display: none; max-width: 420px; word-break: break-all; }
+  #loading { position: fixed; inset: 0; display: grid; place-items: center; z-index: 6; background: #07070c; color: #9a9aa6; font-size: 14px; }
+  .hint { color: #9a9aa6; }
+  @media (max-width: 700px) { #legend { display: none; } }
+</style>
+</head>
+<body>
+<div id="stage"><canvas id="gl"></canvas><canvas id="labels"></canvas></div>
+<div id="loading">loading the galaxy… (about 10 MB)</div>
+<div id="top" class="hud">
+  <span class="title">Model Galaxy</span>
+  <span class="sub" id="gstats"></span>
+  <span style="position:relative"><input id="gq" type="search" placeholder="fly to a model with descendants, e.g. Qwen/Qwen3-8B" autocomplete="off" spellcheck="false"><ul id="gsuggest" hidden></ul></span>
+  <a href="index.html">Leaderboard</a>
+  <a href="index.html#families">Families</a>
+  <a href="https://github.com/h9-tec/model-family-tree" rel="noopener">GitHub</a>
+  <span class="hint">scroll to zoom · drag to pan · click a dot</span>
+</div>
+<div id="legend" class="hud">
+  <div class="row"><span class="dot" style="color:#ffd166;background:#ffd166"></span> base model (root)</div>
+  <div class="row"><span class="dot" style="color:#5aa9ff;background:#5aa9ff"></span> finetune</div>
+  <div class="row"><span class="dot" style="color:#ff9f43;background:#ff9f43"></span> adapter (LoRA)</div>
+  <div class="row"><span class="dot" style="color:#6ee7a0;background:#6ee7a0"></span> quantized</div>
+  <div class="row"><span class="dot" style="color:#ff6b9d;background:#ff6b9d"></span> merge</div>
+  <div class="row"><span class="dot" style="color:#8a8a96;background:#8a8a96"></span> ghost (base no longer public)</div>
+  <div class="row muted">dot size = monthly downloads · cluster = family</div>
+</div>
+<div id="card" class="hud" hidden></div>
+<div id="tip"></div>
+<script src="vendor/d3.min.js"></script>
+<script src="galaxy.js"></script>
+</body>
+</html>

@@ -19,6 +19,7 @@
       <a href="#board" data-view="board">Leaderboard</a>
       <a href="#families" data-view="families">Families</a>
       <a href="#m=Qwen/Qwen2.5-7B" data-view="model">Explorer</a>
+      <a href="galaxy.html">Galaxy ✦</a>
       <a href="https://github.com/h9-tec/model-family-tree" rel="noopener">GitHub</a>
     </nav>
   </div>
@@ -36,11 +37,14 @@
         <button data-kind="models_90d">Last 90 days</button>
         <button data-kind="models_finetune">Finetunes only</button>
         <button data-kind="orgs">Organizations</button>
+        <button data-kind="all">All 88k parents</button>
       </div>
+      <input id="all-q" type="search" placeholder="filter…" class="small" hidden>
       <label class="small">Family <select id="fam-filter"><option value="">all</option></select></label>
       <span class="small muted" id="board-note"></span>
     </div>
     <div class="tablewrap"><table id="board"></table></div>
+    <div id="pager" class="small muted" hidden></div>
   </section>
 
   <section id="view-families" class="view" hidden>
@@ -67,9 +71,10 @@
         <div class="tablewrap"><table id="children"></table></div>
       </div>
       <div>
-        <h3>Tree</h3>
-        <p class="small muted">Root at the left, the selected model highlighted, its most downloaded children on the right. Click any node to move there.</p>
+        <h3>Pedigree</h3>
+        <p class="small muted">Ancestors fan out to the left (every parent of a merge), the most downloaded descendants to the right. Click a descendant to unfold its own children, double-click any node to move there, scroll to zoom.</p>
         <div id="tree"></div>
+        <div id="xtip"></div>
       </div>
     </div>
   </section>

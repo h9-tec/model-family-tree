@@ -21,7 +21,7 @@ import numpy as np
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
-from modeltree import export, fetch, render  # noqa: E402
+from modeltree import export, fetch, galaxy, render  # noqa: E402
 from modeltree.graph import Graph  # noqa: E402
 from modeltree.leaderboard import build_leaderboards  # noqa: E402
 
@@ -41,7 +41,7 @@ def cmd_fetch(source: str) -> int:
     return 0
 
 
-def cmd_build(date: str | None) -> int:
+def cmd_build(date: str | None, with_galaxy: bool = True) -> int:
     date_s, today = _today(date)
     t = time.time()
     nodes, edges = fetch.load_cached(CACHE)
@@ -56,6 +56,11 @@ def cmd_build(date: str | None) -> int:
     (ROOT / "assets" / "monthly.svg").write_text(render.monthly_chart(lb["timeseries"], lb["families"]))
     render.write_tables(lb, ROOT / "docs" / "tables")
     (ROOT / "README.md").write_text(render.readme(lb, stats, date_s))
+    if with_galaxy:
+        downloads = np.concatenate([lb["meta"].downloads, np.zeros(len(g.ids) - g.n_real)])
+        lay = galaxy.layout(g, lb["root_family"], {f["family"]: f["display"] for f in lb["families"]}, downloads)
+        info = galaxy.write_galaxy(g, lay, ROOT / "dist" / "galaxy", date_s)
+        print(f"galaxy: {info['points']:,} points, {info['families']:,} labelled families, {info['bytes'] / 1e6:.1f} MB")
     print(f"built: {stats['models']:,} models, {stats['edges']:,} edges, {stats['parents']:,} parents, {stats['families']:,} families in {time.time() - t:.0f}s")
     return 0
 
@@ -86,13 +91,14 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("cmd", choices=["fetch", "build", "all", "check"])
     ap.add_argument("--source", default=fetch.DUMP_URL)
     ap.add_argument("--date")
+    ap.add_argument("--no-galaxy", action="store_true", help="skip the galaxy layout (dist/galaxy, not committed)")
     a = ap.parse_args(argv)
     if a.cmd == "fetch":
         return cmd_fetch(a.source)
     if a.cmd == "build":
-        return cmd_build(a.date)
+        return cmd_build(a.date, not a.no_galaxy)
     if a.cmd == "all":
-        return cmd_fetch(a.source) or cmd_build(a.date)
+        return cmd_fetch(a.source) or cmd_build(a.date, not a.no_galaxy)
     return cmd_check()
 
 

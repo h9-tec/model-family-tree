@@ -1,6 +1,6 @@
 # Open Model Family Tree
 
-> The ancestry of every model on the Hugging Face Hub, rebuilt nightly from declared base_model metadata. Generated 2026-10-18 from the 2026-10-18 Hub dump.
+> The ancestry of every model on the Hugging Face Hub, rebuilt nightly from declared base_model metadata. Generated 2026-10-18 from the 2026-10-17 Hub dump.
 
 - 3,161,429 models tracked, 897,225 declare a base model, 930,179 parent links, 88,174 models have descendants.
 - Counts are unique descendants (finetunes, adapters, quantizations, merges), each counted once.

@@ -3,6 +3,9 @@ name: pages
 on:
   push:
     branches: [main]
+  workflow_run:
+    workflows: [nightly]
+    types: [completed]
   workflow_dispatch:
 
 permissions:
@@ -29,6 +32,15 @@ jobs:
           cp -r dist _site/dist
           cp -r assets _site/assets
           touch _site/.nojekyll
+      - name: Add the galaxy data from the latest nightly release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh release download data-latest -p galaxy.tar.gz -D /tmp 2>/dev/null; then
+            tar -xzf /tmp/galaxy.tar.gz -C _site/dist
+          else
+            echo "no galaxy asset yet; the page will show the loading state until the next nightly run"
+          fi
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
