@@ -451,7 +451,7 @@
 | 447 | [NousResearch/Llama-2-7b-chat-hf](https://huggingface.co/NousResearch/Llama-2-7b-chat-hf) | 657 | 638 | 6 | 146 / 467 / 32 / 12 | Llama 2 |
 | 448 | [unsloth/orpheus-3b-0.1-ft-unsloth-bnb-4bit](https://huggingface.co/unsloth/orpheus-3b-0.1-ft-unsloth-bnb-4bit) | 199 | 193 | 4 | 145 / 8 / 46 / 0 | Llama 3.2 |
 | 449 | [argilla/distilabeled-Marcoro14-7B-slerp](https://huggingface.co/argilla/distilabeled-Marcoro14-7B-slerp) | 2,565 | 5 | 2 | 144 / 21 / 1,321 / 1,079 | marcoro14 |
-| 450 | [mlabonne/Beagle14-7B](https://huggingface.co/mlabonne/Beagle14-7B) | 2,558 | 15 | 2 | 144 / 21 / 1,317 / 1,076 | una-thebeagle |
+| 450 | [mlabonne/Beagle14-7B](https://huggingface.co/mlabonne/Beagle14-7B) | 2,558 | 15 | 2 | 144 / 21 / 1,317 / 1,076 | marcoro14 |
 | 451 | [allenai/scibert_scivocab_uncased](https://huggingface.co/allenai/scibert_scivocab_uncased) | 153 | 147 | 26 | 142 / 7 / 4 / 0 | scibert-scivocab |
 | 452 | [mrm8488/electricidad-base-discriminator](https://huggingface.co/mrm8488/electricidad-base-discriminator) | 143 | 143 | 0 | 142 / 1 / 0 / 0 | electricidad |
 | 453 | [nvidia/Cosmos-Predict2-2B-Text2Image](https://huggingface.co/nvidia/Cosmos-Predict2-2B-Text2Image) | 387 | 28 | 169 | 142 / 180 / 62 / 3 | cosmos-predict2 |
@@ -473,7 +473,7 @@
 | 469 | [Ultralytics/YOLO26](https://huggingface.co/Ultralytics/YOLO26) | 180 | 178 | 88 | 134 / 0 / 46 / 0 | yolo26 |
 | 470 | [meta-llama/Llama-2-13b-hf](https://huggingface.co/meta-llama/Llama-2-13b-hf) | 506 | 280 | 9 | 134 / 275 / 89 / 8 | Llama 2 |
 | 471 | [yl4579/StyleTTS2-LJSpeech](https://huggingface.co/yl4579/StyleTTS2-LJSpeech) | 262 | 70 | 98 | 134 / 12 / 116 / 0 | styletts2-ljspeech |
-| 472 | [mlabonne/NeuralBeagle14-7B](https://huggingface.co/mlabonne/NeuralBeagle14-7B) | 2,534 | 79 | 2 | 134 / 21 / 1,311 / 1,068 | una-thebeagle |
+| 472 | [mlabonne/NeuralBeagle14-7B](https://huggingface.co/mlabonne/NeuralBeagle14-7B) | 2,534 | 79 | 2 | 134 / 21 / 1,311 / 1,068 | marcoro14 |
 | 473 | [google/gemma-2b-it](https://huggingface.co/google/gemma-2b-it) | 894 | 869 | 4 | 132 / 680 / 56 / 26 | Gemma 1 |
 | 474 | [unsloth/gemma-3-12b-it](https://huggingface.co/unsloth/gemma-3-12b-it) | 311 | 215 | 20 | 132 / 75 / 82 / 22 | Gemma 3 |
 | 475 | [BioMistral/BioMistral-7B](https://huggingface.co/BioMistral/BioMistral-7B) | 392 | 294 | 18 | 131 / 47 / 67 / 147 | biomistral |
