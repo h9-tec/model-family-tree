@@ -1,0 +1,43 @@
+name: nightly
+
+on:
+  schedule:
+    - cron: "30 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency: nightly
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+          python-version: "3.12"
+      - run: uv sync --all-groups
+      - name: Download the Hub dump
+        run: |
+          mkdir -p .cache/hub-stats
+          curl -sSL --retry 3 -o .cache/hub-stats/models.parquet \
+            "https://huggingface.co/datasets/cfahlgren1/hub-stats/resolve/main/models.parquet"
+      - run: uv run python scripts/build.py all --source .cache/hub-stats/models.parquet --date "$(date -u +%F)"
+      - run: uv run python scripts/build.py check
+      - name: Commit and push if changed
+        run: |
+          git add README.md dist docs assets
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: nightly refresh $(date -u +%F)"
+          git push
+      - name: Publish the full graph as a release asset
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view data-latest >/dev/null 2>&1 || gh release create data-latest --title "Full graph (rolling)" --notes "nodes.parquet and edges.parquet from the latest nightly build. Replaced every night."
+          gh release upload data-latest .cache/nodes.parquet .cache/edges.parquet --clobber

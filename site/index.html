@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Open Model Family Tree</title>
+<meta name="description" content="Every Hugging Face model, its ancestry, and the leaderboard of the base models the ecosystem builds on. Rebuilt nightly.">
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌳</text></svg>">
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="brand">
+      <a href="#" class="title">Open Model Family Tree</a>
+      <span class="tag">every Hugging Face model and its ancestry · <span id="stat-line">loading…</span></span>
+    </div>
+    <nav>
+      <a href="#board" data-view="board">Leaderboard</a>
+      <a href="#families" data-view="families">Families</a>
+      <a href="#m=Qwen/Qwen2.5-7B" data-view="model">Explorer</a>
+      <a href="https://github.com/h9-tec/model-family-tree" rel="noopener">GitHub</a>
+    </nav>
+  </div>
+  <div class="wrap search-row">
+    <input id="q" type="search" placeholder="Search any model, e.g. unsloth/Llama-3.1-8B-Instruct" autocomplete="off" spellcheck="false">
+    <ul id="suggest" class="suggest" hidden></ul>
+  </div>
+</header>
+
+<main class="wrap">
+  <section id="view-board" class="view">
+    <div class="toolbar">
+      <div class="seg" id="kind">
+        <button data-kind="models_all_time" class="on">All time</button>
+        <button data-kind="models_90d">Last 90 days</button>
+        <button data-kind="models_finetune">Finetunes only</button>
+        <button data-kind="orgs">Organizations</button>
+      </div>
+      <label class="small">Family <select id="fam-filter"><option value="">all</option></select></label>
+      <span class="small muted" id="board-note"></span>
+    </div>
+    <div class="tablewrap"><table id="board"></table></div>
+  </section>
+
+  <section id="view-families" class="view" hidden>
+    <h2>Families over time</h2>
+    <p class="muted small">Cumulative descendants by the month the derivative was created. Click a family to toggle it. Roots are grouped across organizations by series name, with overrides in <code>data/families.yaml</code>.</p>
+    <div id="fam-chart"></div>
+    <div class="tablewrap"><table id="fam-table"></table></div>
+  </section>
+
+  <section id="view-model" class="view" hidden>
+    <div id="model-head"></div>
+    <div class="cols">
+      <div>
+        <h3>Ancestry</h3>
+        <ol id="ancestors" class="chain"></ol>
+        <h3>Children <span class="small muted" id="children-note"></span></h3>
+        <div class="seg small" id="rel">
+          <button data-rel="" class="on">all</button>
+          <button data-rel="finetune">finetune</button>
+          <button data-rel="adapter">adapter</button>
+          <button data-rel="quantized">quantized</button>
+          <button data-rel="merge">merge</button>
+        </div>
+        <div class="tablewrap"><table id="children"></table></div>
+      </div>
+      <div>
+        <h3>Tree</h3>
+        <p class="small muted">Root at the left, the selected model highlighted, its most downloaded children on the right. Click any node to move there.</p>
+        <div id="tree"></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="wrap small muted">
+  Built nightly from <a href="https://huggingface.co/datasets/cfahlgren1/hub-stats">cfahlgren1/hub-stats</a> (declared <code>base_model</code> metadata; every count is a floor). Counts in the tables are from the nightly build; ancestors and children on this page are fetched live from the Hugging Face API. Code MIT, data CC BY 4.0.
+</footer>
+
+<script src="vendor/d3.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "$schema": "https://www.schemastore.org/claude-code-marketplace.json",
+  "name": "model-family-tree",
+  "description": "Every Hugging Face model, its ancestry, and the most-descended base models. Rebuilt nightly.",
+  "owner": {"name": "Hesham Haroon"},
+  "plugins": [
+    {
+      "name": "model-family-tree",
+      "description": "Ask what a model is based on, what was built on it, and which base models the ecosystem actually uses.",
+      "source": "./",
+      "category": "development"
+    }
+  ]
+}

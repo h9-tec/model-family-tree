@@ -1,0 +1,10 @@
+{
+  "name": "model-family-tree",
+  "version": "0.1.0",
+  "description": "The ancestry of every Hugging Face model and the leaderboard of the bases the ecosystem builds on, as MCP tools your agent can call.",
+  "author": {"name": "Hesham Haroon", "url": "https://github.com/h9-tec"},
+  "homepage": "https://github.com/h9-tec/model-family-tree",
+  "repository": "https://github.com/h9-tec/model-family-tree",
+  "license": "MIT",
+  "keywords": ["huggingface", "llm", "lineage", "base-model", "leaderboard", "mcp"]
+}
