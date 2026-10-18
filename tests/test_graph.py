@@ -76,9 +76,9 @@ def test_token_shaped_ids_dropped():
     raw = pl.DataFrame({
         "id": ["ok/model", "leak/hf_" + "a" * 34], "author": ["ok", "leak"],
         "createdAt": [dt.datetime(2026, 1, 1)] * 2, "lastModified": [dt.datetime(2026, 1, 1)] * 2,
-        "downloads": [1, 1], "downloadsAllTime": [1, 1], "likes": [0, 0], "pipeline_tag": [None, None],
-        "library_name": [None, None], "trendingScore": [0.0, 0.0],
-        "baseModels": [None, {"relation": "finetune", "models": [{"_id": "x", "id": "ok/model"}]}], "tags": [[], []],
+        "downloads": [1, 1], "downloadsAllTime": [1, 1], "likes": [0, 0], "pipeline_tag": ["x", "x"],
+        "library_name": ["x", "x"], "trendingScore": [0.0, 0.0],
+        "baseModels": [None, {"relation": "finetune", "models": [{"_id": "x", "id": "ok/model"}]}], "tags": [["a"], ["a"]],
     }, strict=False)
     nodes, edges = extract(raw)
     assert nodes["id"].to_list() == ["ok/model"] and edges.height == 0
