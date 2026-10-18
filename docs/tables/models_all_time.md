@@ -112,9 +112,9 @@
 | 108 | [HuggingFaceTB/SmolLM2-135M](https://huggingface.co/HuggingFaceTB/SmolLM2-135M) | 2,308 | 1,075 | 211 | 1,581 / 351 / 371 / 5 | SmolLM2 |
 | 109 | [FelixChao/Sectumsempra-7B-DPO](https://huggingface.co/FelixChao/Sectumsempra-7B-DPO) | 2,308 | 5 | 1 | 115 / 18 / 1,204 / 971 | sectumsempra |
 | 110 | [Qwen/Qwen2.5-Math-7B](https://huggingface.co/Qwen/Qwen2.5-Math-7B) | 2,305 | 1,124 | 28 | 1,222 / 577 / 328 / 178 | Qwen2.5 |
-| 111 | [shadowml/WestBeagle-7B](https://huggingface.co/shadowml/WestBeagle-7B) | 2,285 | 11 | 1 | 114 / 18 / 1,188 / 965 | una-thebeagle |
+| 111 | [shadowml/WestBeagle-7B](https://huggingface.co/shadowml/WestBeagle-7B) | 2,285 | 11 | 1 | 114 / 18 / 1,188 / 965 | westseverus |
 | 112 | [shadowml/BeagleSempra-7B](https://huggingface.co/shadowml/BeagleSempra-7B) | 2,279 | 4 | 1 | 114 / 18 / 1,186 / 961 | sectumsempra |
-| 113 | [shadowml/BeagSake-7B](https://huggingface.co/shadowml/BeagSake-7B) | 2,276 | 6 | 1 | 114 / 18 / 1,186 / 958 | una-thebeagle |
+| 113 | [shadowml/BeagSake-7B](https://huggingface.co/shadowml/BeagSake-7B) | 2,276 | 6 | 1 | 114 / 18 / 1,186 / 958 | westseverus |
 | 114 | [mlabonne/OmniBeagle-7B](https://huggingface.co/mlabonne/OmniBeagle-7B) | 2,272 | 17 | 1 | 114 / 18 / 1,183 / 957 | sectumsempra |
 | 115 | [microsoft/Phi-3-mini-4k-instruct](https://huggingface.co/microsoft/Phi-3-mini-4k-instruct) | 2,266 | 2,186 | 261 | 1,131 / 877 / 240 / 18 | Phi-3 |
 | 116 | [google/gemma-4-31B-it](https://huggingface.co/google/gemma-4-31B-it) | 2,244 | 1,031 | 751 | 429 / 404 / 1,326 / 85 | Gemma 4 |
@@ -162,7 +162,7 @@
 | 158 | [DeepMount00/Llama-3-8b-Ita](https://huggingface.co/DeepMount00/Llama-3-8b-Ita) | 1,727 | 254 | 4 | 70 / 371 / 778 / 508 | Llama 3 |
 | 159 | [nbeerbower/mistral-nemo-bophades-12B](https://huggingface.co/nbeerbower/mistral-nemo-bophades-12B) | 1,720 | 34 | 40 | 77 / 7 / 1,187 / 449 | Mistral |
 | 160 | [Fizzarolli/nemo-sunfall-v0.6.1-adapter-on-base](https://huggingface.co/Fizzarolli/nemo-sunfall-v0.6.1-adapter-on-base) | 1,707 | 2 | 40 | 75 / 7 / 1,184 / 441 | nemo-sunfall |
-| 161 | [Fizzarolli/MN-12b-Sunrose](https://huggingface.co/Fizzarolli/MN-12b-Sunrose) | 1,705 | 12 | 40 | 75 / 7 / 1,184 / 439 | mn |
+| 161 | [Fizzarolli/MN-12b-Sunrose](https://huggingface.co/Fizzarolli/MN-12b-Sunrose) | 1,705 | 12 | 40 | 75 / 7 / 1,184 / 439 | nemo-sunfall |
 | 162 | [nbeerbower/mistral-nemo-wissenschaft-12B](https://huggingface.co/nbeerbower/mistral-nemo-wissenschaft-12B) | 1,704 | 27 | 40 | 76 / 8 / 1,183 / 437 | Mistral |
 | 163 | [inflatebot/MN-12B-Mag-Mell-R1](https://huggingface.co/inflatebot/MN-12B-Mag-Mell-R1) | 1,670 | 132 | 40 | 75 / 7 / 1,162 / 426 | Mistral |
 | 164 | [yam-peleg/Experiment24-7B](https://huggingface.co/yam-peleg/Experiment24-7B) | 1,664 | 15 | 0 | 57 / 0 / 857 / 750 | experiment24 |
@@ -213,21 +213,21 @@
 | 209 | [nbeerbower/llama-3-bophades-v3-8B](https://huggingface.co/nbeerbower/llama-3-bophades-v3-8B) | 1,460 | 9 | 4 | 58 / 143 / 757 / 502 | Llama 3 |
 | 210 | [microsoft/speecht5_tts](https://huggingface.co/microsoft/speecht5_tts) | 1,453 | 1,393 | 38 | 1,445 / 2 / 6 / 0 | speecht5-tts |
 | 211 | [NousResearch/Hermes-3-Llama-3.1-8B](https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-8B) | 1,452 | 421 | 13 | 74 / 285 / 665 / 428 | Llama 3.1 |
-| 212 | [paulml/OmniBeagleMBX-v3-7B](https://huggingface.co/paulml/OmniBeagleMBX-v3-7B) | 1,451 | 4 | 0 | 46 / 0 / 742 / 663 | mbx |
+| 212 | [paulml/OmniBeagleMBX-v3-7B](https://huggingface.co/paulml/OmniBeagleMBX-v3-7B) | 1,451 | 4 | 0 | 46 / 0 / 742 / 663 | sectumsempra |
 | 213 | [jsgreenawalt/gemma-2-9B-it-advanced-v2.1](https://huggingface.co/jsgreenawalt/gemma-2-9B-it-advanced-v2.1) | 1,449 | 15 | 2 | 44 / 1 / 694 / 710 | Gemma 2 |
-| 214 | [CultriX/NeuralTrix-7B-dpo](https://huggingface.co/CultriX/NeuralTrix-7B-dpo) | 1,446 | 23 | 0 | 51 / 0 / 741 / 654 | sectumsempra |
+| 214 | [CultriX/NeuralTrix-7B-dpo](https://huggingface.co/CultriX/NeuralTrix-7B-dpo) | 1,446 | 23 | 0 | 51 / 0 / 741 / 654 | aimaven-prometheus |
 | 215 | [lodrick-the-lafted/Olethros-8B](https://huggingface.co/lodrick-the-lafted/Olethros-8B) | 1,444 | 8 | 4 | 56 / 143 / 745 / 500 | olethros |
 | 216 | [mistralai/Mistral-Small-3.2-24B-Instruct-2506](https://huggingface.co/mistralai/Mistral-Small-3.2-24B-Instruct-2506) | 1,442 | 159 | 139 | 219 / 75 / 1,029 / 119 | Mistral |
 | 217 | [allenai/Olmo-3-1025-7B](https://huggingface.co/allenai/Olmo-3-1025-7B) | 1,435 | 178 | 653 | 970 / 270 / 190 / 5 | olmo-3-1025 |
 | 218 | [nbeerbower/llama-3-gutenberg-8B](https://huggingface.co/nbeerbower/llama-3-gutenberg-8B) | 1,432 | 26 | 4 | 53 / 143 / 738 / 498 | Llama 3 |
 | 219 | [nbeerbower/llama-3-wissenschaft-8B-v2](https://huggingface.co/nbeerbower/llama-3-wissenschaft-8B-v2) | 1,424 | 4 | 4 | 54 / 143 / 733 / 494 | Llama 3 |
 | 220 | [Endevor/InfinityRP-v2-8B](https://huggingface.co/Endevor/InfinityRP-v2-8B) † | 1,424 | 2 | 4 | 54 / 143 / 735 / 492 | infinityrp |
-| 221 | [nbeerbower/llama-3-stinky-8B](https://huggingface.co/nbeerbower/llama-3-stinky-8B) | 1,422 | 4 | 4 | 54 / 143 / 734 / 491 | llama3-unholy |
+| 221 | [nbeerbower/llama-3-stinky-8B](https://huggingface.co/nbeerbower/llama-3-stinky-8B) | 1,422 | 4 | 4 | 54 / 143 / 734 / 491 | Llama 3 |
 | 222 | [theo77186/Llama-3-8B-Instruct-norefusal](https://huggingface.co/theo77186/Llama-3-8B-Instruct-norefusal) | 1,419 | 5 | 4 | 53 / 144 / 731 / 491 | Llama 3 |
 | 223 | [nbeerbower/llama-3-bible-dpo-8B](https://huggingface.co/nbeerbower/llama-3-bible-dpo-8B) | 1,419 | 5 | 4 | 53 / 143 / 732 / 491 | Llama 3 |
 | 224 | [bunnycore/Cognitron-8B](https://huggingface.co/bunnycore/Cognitron-8B) | 1,418 | 4 | 4 | 53 / 143 / 731 / 491 | cognitron |
-| 225 | [nbeerbower/llama-3-dragonmaid-8B-v2](https://huggingface.co/nbeerbower/llama-3-dragonmaid-8B-v2) | 1,418 | 4 | 4 | 53 / 143 / 731 / 491 | llama3-unholy |
-| 226 | [lemon07r/Gemma-2-Ataraxy-v2-9B](https://huggingface.co/lemon07r/Gemma-2-Ataraxy-v2-9B) | 1,418 | 14 | 2 | 44 / 1 / 675 / 698 | gemma-2-ifable |
+| 225 | [nbeerbower/llama-3-dragonmaid-8B-v2](https://huggingface.co/nbeerbower/llama-3-dragonmaid-8B-v2) | 1,418 | 4 | 4 | 53 / 143 / 731 / 491 | Llama 3 |
+| 226 | [lemon07r/Gemma-2-Ataraxy-v2-9B](https://huggingface.co/lemon07r/Gemma-2-Ataraxy-v2-9B) | 1,418 | 14 | 2 | 44 / 1 / 675 / 698 | Gemma 2 |
 | 227 | [nreimers/MiniLM-L6-H384-uncased](https://huggingface.co/nreimers/MiniLM-L6-H384-uncased) | 1,417 | 57 | 239 | 1,217 / 21 / 175 / 4 | minilm-l6-h384 |
 | 228 | [nbeerbower/llama-3-stella-8B](https://huggingface.co/nbeerbower/llama-3-stella-8B) | 1,414 | 23 | 4 | 53 / 143 / 728 / 490 | Llama 3 |
 | 229 | [unsloth/gemma-3-4b-it-unsloth-bnb-4bit](https://huggingface.co/unsloth/gemma-3-4b-it-unsloth-bnb-4bit) | 1,413 | 1,330 | 38 | 1,134 / 128 / 151 / 0 | Gemma 3 |
@@ -239,16 +239,16 @@
 | 235 | [teknium/OpenHermes-2.5-Mistral-7B](https://huggingface.co/teknium/OpenHermes-2.5-Mistral-7B) | 1,404 | 554 | 6 | 137 / 372 / 503 / 390 | Mistral |
 | 236 | [flammenai/Mahou-1.0-llama3-8B](https://huggingface.co/flammenai/Mahou-1.0-llama3-8B) | 1,401 | 5 | 4 | 50 / 143 / 719 / 489 | Llama 3 |
 | 237 | [flammenai/Mahou-1.1-llama3-8B](https://huggingface.co/flammenai/Mahou-1.1-llama3-8B) | 1,397 | 26 | 4 | 49 / 143 / 717 / 488 | Llama 3 |
-| 238 | [Gille/StrangeMerges_9-7B-dare_ties](https://huggingface.co/Gille/StrangeMerges_9-7B-dare_ties) | 1,392 | 2 | 0 | 45 / 0 / 705 / 642 | turdusbeagle |
+| 238 | [Gille/StrangeMerges_9-7B-dare_ties](https://huggingface.co/Gille/StrangeMerges_9-7B-dare_ties) | 1,392 | 2 | 0 | 45 / 0 / 705 / 642 | fernandogpt |
 | 239 | [google/paligemma-3b-pt-224](https://huggingface.co/google/paligemma-3b-pt-224) | 1,389 | 347 | 793 | 1,063 / 316 / 10 / 0 | paligemma |
 | 240 | [Gille/StrangeMerges_10-7B-slerp](https://huggingface.co/Gille/StrangeMerges_10-7B-slerp) | 1,389 | 1 | 0 | 45 / 0 / 704 / 640 | mbx |
-| 241 | [Gille/StrangeMerges_11-7B-slerp](https://huggingface.co/Gille/StrangeMerges_11-7B-slerp) | 1,388 | 2 | 0 | 45 / 0 / 704 / 639 | mbx |
+| 241 | [Gille/StrangeMerges_11-7B-slerp](https://huggingface.co/Gille/StrangeMerges_11-7B-slerp) | 1,388 | 2 | 0 | 45 / 0 / 704 / 639 | una-thebeagle |
 | 242 | [deepseek-ai/DeepSeek-R1-Distill-Qwen-7B](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B) | 1,386 | 738 | 125 | 470 / 202 / 594 / 120 | DeepSeek-R1 |
 | 243 | [google/gemma-4-12B-it](https://huggingface.co/google/gemma-4-12B-it) | 1,378 | 728 | 585 | 395 / 168 / 799 / 16 | Gemma 4 |
 | 244 | [cloudyu/Meta-Llama-3-8B-Instruct-DPO](https://huggingface.co/cloudyu/Meta-Llama-3-8B-Instruct-DPO) | 1,376 | 7 | 4 | 46 / 143 / 696 / 491 | Llama 3 |
-| 245 | [paulml/OmniBeagleSquaredMBX-v3-7B-v2](https://huggingface.co/paulml/OmniBeagleSquaredMBX-v3-7B-v2) | 1,370 | 10 | 0 | 42 / 0 / 697 / 631 | mbx |
+| 245 | [paulml/OmniBeagleSquaredMBX-v3-7B-v2](https://huggingface.co/paulml/OmniBeagleSquaredMBX-v3-7B-v2) | 1,370 | 10 | 0 | 42 / 0 / 697 / 631 | sectumsempra |
 | 246 | [recoilme/recoilme-gemma-2-9B-v0.4](https://huggingface.co/recoilme/recoilme-gemma-2-9B-v0.4) | 1,370 | 40 | 1 | 43 / 2 / 633 / 692 | recoilme-gemma-2 |
-| 247 | [mlabonne/ChimeraLlama-3-8B-v2](https://huggingface.co/mlabonne/ChimeraLlama-3-8B-v2) | 1,368 | 8 | 4 | 46 / 143 / 693 / 486 | configurable-llama-3 |
+| 247 | [mlabonne/ChimeraLlama-3-8B-v2](https://huggingface.co/mlabonne/ChimeraLlama-3-8B-v2) | 1,368 | 8 | 4 | 46 / 143 / 693 / 486 | Llama 3 |
 | 248 | [uygarkurt/llama-3-merged-linear](https://huggingface.co/uygarkurt/llama-3-merged-linear) | 1,363 | 3 | 4 | 46 / 143 / 689 / 485 | Llama 3 |
 | 249 | [openchat/openchat-3.6-8b-20240522](https://huggingface.co/openchat/openchat-3.6-8b-20240522) | 1,362 | 37 | 4 | 47 / 144 / 689 / 482 | Llama 3 |
 | 250 | [sentence-transformers/all-MiniLM-L6-v2](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2) | 1,356 | 1,285 | 215 | 1,191 / 20 / 141 / 4 | minilm-l6-h384 |
@@ -259,9 +259,9 @@
 | 255 | [google/flan-t5-base](https://huggingface.co/google/flan-t5-base) | 1,334 | 1,295 | 29 | 959 / 341 / 32 / 2 | Flan-T5 |
 | 256 | [NeverSleep/Llama-3-Lumimaid-8B-v0.1-OAS](https://huggingface.co/NeverSleep/Llama-3-Lumimaid-8B-v0.1-OAS) | 1,330 | 33 | 2 | 36 / 142 / 683 / 469 | llama-3-lumimaid |
 | 257 | [unsloth/mistral-7b-instruct-v0.3-bnb-4bit](https://huggingface.co/unsloth/mistral-7b-instruct-v0.3-bnb-4bit) | 1,330 | 1,261 | 28 | 939 / 150 / 239 / 2 | Mistral |
-| 258 | [Gille/StrangeMerges_20-7B-slerp](https://huggingface.co/Gille/StrangeMerges_20-7B-slerp) | 1,327 | 3 | 0 | 42 / 0 / 673 / 612 | mbx |
+| 258 | [Gille/StrangeMerges_20-7B-slerp](https://huggingface.co/Gille/StrangeMerges_20-7B-slerp) | 1,327 | 3 | 0 | 42 / 0 / 673 / 612 | una-thebeagle |
 | 259 | [mlabonne/Daredevil-8B](https://huggingface.co/mlabonne/Daredevil-8B) | 1,325 | 11 | 3 | 45 / 143 / 673 / 464 | Llama 3 |
-| 260 | [Gille/StrangeMerges_21-7B-slerp](https://huggingface.co/Gille/StrangeMerges_21-7B-slerp) | 1,320 | 13 | 0 | 42 / 0 / 669 / 609 | sectumsempra |
+| 260 | [Gille/StrangeMerges_21-7B-slerp](https://huggingface.co/Gille/StrangeMerges_21-7B-slerp) | 1,320 | 13 | 0 | 42 / 0 / 669 / 609 | una-thebeagle |
 | 261 | [FacebookAI/xlm-roberta-large](https://huggingface.co/FacebookAI/xlm-roberta-large) | 1,315 | 1,113 | 98 | 1,223 / 54 / 38 / 0 | XLM-RoBERTa |
 | 262 | [EVA-UNIT-01/EVA-LLaMA-3.33-70B-v0.0](https://huggingface.co/EVA-UNIT-01/EVA-LLaMA-3.33-70B-v0.0) | 1,314 | 45 | 0 | 24 / 15 / 824 / 451 | Llama 3.1 |
 | 263 | [mlabonne/Daredevil-8B-abliterated](https://huggingface.co/mlabonne/Daredevil-8B-abliterated) | 1,312 | 18 | 3 | 42 / 143 / 666 / 461 | Llama 3 |
@@ -272,7 +272,7 @@
 | 268 | [Laxhar/noobai-XL-0.6](https://huggingface.co/Laxhar/noobai-XL-0.6) | 1,297 | 2 | 15 | 768 / 54 / 12 / 463 | kohaku |
 | 269 | [Laxhar/noobai-XL-0.75](https://huggingface.co/Laxhar/noobai-XL-0.75) | 1,295 | 11 | 15 | 766 / 54 / 12 / 463 | kohaku |
 | 270 | [nvidia/Llama-3.1-Nemotron-70B-Instruct-HF](https://huggingface.co/nvidia/Llama-3.1-Nemotron-70B-Instruct-HF) | 1,294 | 163 | 1 | 83 / 31 / 734 / 446 | Llama 3.1 |
-| 271 | [Gille/StrangeMerges_30-7B-slerp](https://huggingface.co/Gille/StrangeMerges_30-7B-slerp) | 1,292 | 12 | 0 | 41 / 0 / 658 / 593 | experiment26 |
+| 271 | [Gille/StrangeMerges_30-7B-slerp](https://huggingface.co/Gille/StrangeMerges_30-7B-slerp) | 1,292 | 12 | 0 | 41 / 0 / 658 / 593 | una-thebeagle |
 | 272 | [Laxhar/noobai-XL-0.77](https://huggingface.co/Laxhar/noobai-XL-0.77) | 1,284 | 1 | 15 | 757 / 53 / 12 / 462 | kohaku |
 | 273 | [Laxhar/noobai-XL-1.0](https://huggingface.co/Laxhar/noobai-XL-1.0) | 1,283 | 319 | 15 | 756 / 53 / 12 / 462 | kohaku |
 | 274 | [nbeerbower/Mistral-Nemo-12B-abliterated-LORA](https://huggingface.co/nbeerbower/Mistral-Nemo-12B-abliterated-LORA) | 1,281 | 17 | 27 | 95 / 2 / 872 / 312 | Mistral |
@@ -282,7 +282,7 @@
 | 278 | [eren23/dpo-binarized-NeuralTrix-7B](https://huggingface.co/eren23/dpo-binarized-NeuralTrix-7B) | 1,270 | 7 | 1 | 94 / 12 / 690 / 474 | dpo-binarized-neuraltrix |
 | 279 | [Qwen/Qwen2-0.5B-Instruct](https://huggingface.co/Qwen/Qwen2-0.5B-Instruct) | 1,267 | 1,209 | 36 | 613 / 509 / 130 / 15 | Qwen2 |
 | 280 | [Qwen/Qwen2.5-Math-1.5B](https://huggingface.co/Qwen/Qwen2.5-Math-1.5B) | 1,267 | 398 | 150 | 477 / 556 / 183 / 51 | Qwen2.5 |
-| 281 | [zelk12/recoilme-gemma-2-Ataraxy-9B-v0.1-t0.25](https://huggingface.co/zelk12/recoilme-gemma-2-Ataraxy-9B-v0.1-t0.25) | 1,264 | 48 | 0 | 40 / 0 / 578 / 646 | gemma-2-ifable |
+| 281 | [zelk12/recoilme-gemma-2-Ataraxy-9B-v0.1-t0.25](https://huggingface.co/zelk12/recoilme-gemma-2-Ataraxy-9B-v0.1-t0.25) | 1,264 | 48 | 0 | 40 / 0 / 578 / 646 | recoilme-gemma-2 |
 | 282 | [ResplendentAI/Smarts_Llama3](https://huggingface.co/ResplendentAI/Smarts_Llama3) | 1,263 | 44 | 0 | 33 / 142 / 630 / 458 | smarts-llama3 |
 | 283 | [TheDrummer/UnslopNemo-12B-v4.1](https://huggingface.co/TheDrummer/UnslopNemo-12B-v4.1) | 1,258 | 42 | 52 | 65 / 2 / 866 / 325 | unslopnemo |
 | 284 | [mlabonne/NeuralOmniBeagle-7B](https://huggingface.co/mlabonne/NeuralOmniBeagle-7B) | 1,256 | 10 | 1 | 92 / 12 / 678 / 474 | sectumsempra |
@@ -293,8 +293,8 @@
 | 289 | [Qwen/Qwen3-4B-Thinking-2507](https://huggingface.co/Qwen/Qwen3-4B-Thinking-2507) | 1,238 | 514 | 95 | 470 / 102 / 576 / 90 | Qwen3 |
 | 290 | [unsloth/Meta-Llama-3.1-8B](https://huggingface.co/unsloth/Meta-Llama-3.1-8B) | 1,234 | 648 | 17 | 324 / 293 / 359 / 258 | meta-llama-3.1 |
 | 291 | [mlabonne/OmniTruthyBeagle-7B-v0](https://huggingface.co/mlabonne/OmniTruthyBeagle-7B-v0) | 1,227 | 9 | 1 | 90 / 12 / 666 / 459 | sectumsempra |
-| 292 | [mlabonne/NeuBeagle-7B](https://huggingface.co/mlabonne/NeuBeagle-7B) | 1,220 | 5 | 1 | 91 / 12 / 661 / 456 | dpo-binarized-neutrixomnibe |
-| 293 | [mlabonne/Monarch-7B](https://huggingface.co/mlabonne/Monarch-7B) | 1,214 | 36 | 1 | 90 / 12 / 658 / 454 | sectumsempra |
+| 292 | [mlabonne/NeuBeagle-7B](https://huggingface.co/mlabonne/NeuBeagle-7B) | 1,220 | 5 | 1 | 91 / 12 / 661 / 456 | dpo-binarized-neuraltrix |
+| 293 | [mlabonne/Monarch-7B](https://huggingface.co/mlabonne/Monarch-7B) | 1,214 | 36 | 1 | 90 / 12 / 658 / 454 | dpo-binarized-neuraltrix |
 | 294 | [NousResearch/Hermes-3-Llama-3.1-70B](https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-70B) | 1,213 | 42 | 6 | 43 / 9 / 667 / 494 | Llama 3.1 |
 | 295 | [unsloth/gemma-3-4b-it](https://huggingface.co/unsloth/gemma-3-4b-it) | 1,213 | 1,179 | 152 | 1,130 / 42 / 39 / 2 | Gemma 3 |
 | 296 | [arcee-ai/Llama-3.1-SuperNova-Lite](https://huggingface.co/arcee-ai/Llama-3.1-SuperNova-Lite) | 1,212 | 102 | 1 | 43 / 2 / 697 / 470 | Llama 3.1 |
@@ -331,18 +331,18 @@
 | 327 | [Qwen/Qwen2.5-Coder-32B](https://huggingface.co/Qwen/Qwen2.5-Coder-32B) | 1,110 | 94 | 59 | 421 / 179 / 438 / 72 | Qwen2.5 |
 | 328 | [CorticalStack/shadow-clown-7B-slerp](https://huggingface.co/CorticalStack/shadow-clown-7B-slerp) | 1,108 | 12 | 0 | 40 / 0 / 580 / 488 | shadow-clown |
 | 329 | [natong19/Mistral-Nemo-Instruct-2407-abliterated](https://huggingface.co/natong19/Mistral-Nemo-Instruct-2407-abliterated) | 1,108 | 30 | 29 | 53 / 3 / 764 / 288 | Mistral |
-| 330 | [mlabonne/NeuralMonarch-7B](https://huggingface.co/mlabonne/NeuralMonarch-7B) | 1,106 | 42 | 1 | 76 / 10 / 600 / 420 | sectumsempra |
+| 330 | [mlabonne/NeuralMonarch-7B](https://huggingface.co/mlabonne/NeuralMonarch-7B) | 1,106 | 42 | 1 | 76 / 10 / 600 / 420 | dpo-binarized-neuraltrix |
 | 331 | [Blackroot/Llama-3-LongStory-LORA](https://huggingface.co/Blackroot/Llama-3-LongStory-LORA) | 1,101 | 12 | 2 | 30 / 142 / 519 / 410 | llama-3-longstory |
 | 332 | [lemon07r/Gemma-2-Ataraxy-v3b-9B](https://huggingface.co/lemon07r/Gemma-2-Ataraxy-v3b-9B) | 1,098 | 6 | 0 | 39 / 0 / 516 / 543 | Gemma 2 |
 | 333 | [Qwen/Qwen2.5-72B](https://huggingface.co/Qwen/Qwen2.5-72B) | 1,093 | 132 | 50 | 222 / 262 / 552 / 57 | Qwen2.5 |
 | 334 | [unsloth/Qwen3-4B-Instruct-2507](https://huggingface.co/unsloth/Qwen3-4B-Instruct-2507) | 1,092 | 930 | 77 | 482 / 450 / 110 / 50 | Qwen3 |
 | 335 | [Qwen/Qwen2-VL-7B-Instruct](https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct) | 1,090 | 899 | 32 | 704 / 237 / 148 / 1 | Qwen2 |
-| 336 | [zelk12/recoilme-gemma-2-Ifable-9B-v0.1](https://huggingface.co/zelk12/recoilme-gemma-2-Ifable-9B-v0.1) | 1,090 | 21 | 0 | 33 / 0 / 487 / 570 | recoilme-gemma-2 |
+| 336 | [zelk12/recoilme-gemma-2-Ifable-9B-v0.1](https://huggingface.co/zelk12/recoilme-gemma-2-Ifable-9B-v0.1) | 1,090 | 21 | 0 | 33 / 0 / 487 / 570 | gemma-2-ifable |
 | 337 | [mlabonne/Hermes-3-Llama-3.1-70B-lorablated](https://huggingface.co/mlabonne/Hermes-3-Llama-3.1-70B-lorablated) | 1,086 | 142 | 5 | 21 / 4 / 602 / 459 | Llama 3 |
-| 338 | [lemon07r/Gemma-2-Ataraxy-v4c-9B](https://huggingface.co/lemon07r/Gemma-2-Ataraxy-v4c-9B) | 1,085 | 26 | 0 | 39 / 0 / 509 / 537 | Gemma 2 |
+| 338 | [lemon07r/Gemma-2-Ataraxy-v4c-9B](https://huggingface.co/lemon07r/Gemma-2-Ataraxy-v4c-9B) | 1,085 | 26 | 0 | 39 / 0 / 509 / 537 | recoilme-gemma-2 |
 | 339 | [flammenai/Flammades-Mistral-Nemo-12B](https://huggingface.co/flammenai/Flammades-Mistral-Nemo-12B) | 1,079 | 9 | 32 | 81 / 1 / 718 / 279 | m12b |
 | 340 | [facebook/wav2vec2-base](https://huggingface.co/facebook/wav2vec2-base) | 1,078 | 1,024 | 38 | 1,068 / 1 / 9 / 0 | wav2vec 2.0 |
-| 341 | [zelk12/recoilme-gemma-2-Gutenberg-Doppel-9B-v0.1](https://huggingface.co/zelk12/recoilme-gemma-2-Gutenberg-Doppel-9B-v0.1) | 1,074 | 15 | 0 | 33 / 0 / 483 / 558 | Gemma 2 |
+| 341 | [zelk12/recoilme-gemma-2-Gutenberg-Doppel-9B-v0.1](https://huggingface.co/zelk12/recoilme-gemma-2-Gutenberg-Doppel-9B-v0.1) | 1,074 | 15 | 0 | 33 / 0 / 483 / 558 | recoilme-gemma-2 |
 | 342 | [deepseek-ai/DeepSeek-R1-Distill-Qwen-14B](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-14B) | 1,073 | 415 | 37 | 211 / 147 / 565 / 150 | DeepSeek-R1 |
 | 343 | [flammenai/Mahou-1.5-mistral-nemo-12B](https://huggingface.co/flammenai/Mahou-1.5-mistral-nemo-12B) | 1,071 | 22 | 32 | 79 / 1 / 712 / 279 | m12b |
 | 344 | [Sao10K/L3-8B-Stheno-v3.1](https://huggingface.co/Sao10K/L3-8B-Stheno-v3.1) † | 1,070 | 27 | 0 | 32 / 143 / 500 / 395 | Llama 3 |
@@ -352,11 +352,11 @@
 | 348 | [anthracite-org/magnum-v4-12b](https://huggingface.co/anthracite-org/magnum-v4-12b) | 1,057 | 64 | 15 | 46 / 0 / 704 / 307 | magnum |
 | 349 | [SteelStorage/llama-3-cat-8b-instruct-v1](https://huggingface.co/SteelStorage/llama-3-cat-8b-instruct-v1) | 1,053 | 17 | 0 | 31 / 142 / 484 / 396 | llama-3-cat |
 | 350 | [Qwen/QwQ-32B](https://huggingface.co/Qwen/QwQ-32B) | 1,050 | 385 | 13 | 378 / 73 / 502 / 97 | Qwen2.5 |
-| 351 | [mlabonne/AlphaMonarch-7B](https://huggingface.co/mlabonne/AlphaMonarch-7B) | 1,050 | 73 | 0 | 55 / 2 / 574 / 419 | sectumsempra |
+| 351 | [mlabonne/AlphaMonarch-7B](https://huggingface.co/mlabonne/AlphaMonarch-7B) | 1,050 | 73 | 0 | 55 / 2 / 574 / 419 | dpo-binarized-neuraltrix |
 | 352 | [Hastagaras/Halu-OAS-8B-Llama3](https://huggingface.co/Hastagaras/Halu-OAS-8B-Llama3) | 1,046 | 5 | 2 | 29 / 142 / 487 / 388 | halu-oas |
-| 353 | [Hastagaras/Halu-8B-Llama3-Blackroot](https://huggingface.co/Hastagaras/Halu-8B-Llama3-Blackroot) | 1,044 | 17 | 2 | 30 / 142 / 481 / 391 | Llama 3 |
+| 353 | [Hastagaras/Halu-8B-Llama3-Blackroot](https://huggingface.co/Hastagaras/Halu-8B-Llama3-Blackroot) | 1,044 | 17 | 2 | 30 / 142 / 481 / 391 | llama-3-longstory |
 | 354 | [WizardLMTeam/WizardMath-7B-V1.1](https://huggingface.co/WizardLMTeam/WizardMath-7B-V1.1) | 1,042 | 129 | 2 | 45 / 5 / 529 / 463 | wizardmath |
-| 355 | [grimjim/Llama-3-Oasis-v1-OAS-8B](https://huggingface.co/grimjim/Llama-3-Oasis-v1-OAS-8B) | 1,038 | 16 | 2 | 29 / 142 / 481 / 386 | Llama 3 |
+| 355 | [grimjim/Llama-3-Oasis-v1-OAS-8B](https://huggingface.co/grimjim/Llama-3-Oasis-v1-OAS-8B) | 1,038 | 16 | 2 | 29 / 142 / 481 / 386 | halu-oas |
 | 356 | [Qwen/Qwen2.5-Math-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Math-7B-Instruct) | 1,037 | 588 | 15 | 169 / 555 / 196 / 117 | Qwen2.5 |
 | 357 | [google/medgemma-4b-pt](https://huggingface.co/google/medgemma-4b-pt) | 1,034 | 23 | 54 | 784 / 157 / 90 / 3 | Gemma 3 |
 | 358 | [BAAI/bge-m3](https://huggingface.co/BAAI/bge-m3) | 1,033 | 913 | 90 | 651 / 35 / 344 / 3 | bge-m3 |
@@ -369,7 +369,7 @@
 | 365 | [bluuwhale/L3-SthenoMaidBlackroot-8B-V1](https://huggingface.co/bluuwhale/L3-SthenoMaidBlackroot-8B-V1) | 1,023 | 34 | 0 | 29 / 142 / 469 / 383 | llama-3-lumimaid |
 | 366 | [HuggingFaceTB/SmolLM2-1.7B-Instruct](https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct) | 1,021 | 361 | 75 | 396 / 370 / 247 / 8 | SmolLM2 |
 | 367 | [Gille/StrangeMerges_31-7B-slerp](https://huggingface.co/Gille/StrangeMerges_31-7B-slerp) | 1,021 | 1 | 0 | 12 / 0 / 503 / 506 | experiment24 |
-| 368 | [Gille/StrangeMerges_32-7B-slerp](https://huggingface.co/Gille/StrangeMerges_32-7B-slerp) | 1,020 | 31 | 0 | 12 / 0 / 503 / 505 | experiment28 |
+| 368 | [Gille/StrangeMerges_32-7B-slerp](https://huggingface.co/Gille/StrangeMerges_32-7B-slerp) | 1,020 | 31 | 0 | 12 / 0 / 503 / 505 | experiment24 |
 | 369 | [LiquidAI/LFM2.5-1.2B-Base](https://huggingface.co/LiquidAI/LFM2.5-1.2B-Base) | 1,014 | 106 | 329 | 350 / 210 / 451 / 3 | lfm2.5 |
 | 370 | [ChaoticNeutrals/Hathor_RP-v.01-L3-8B](https://huggingface.co/ChaoticNeutrals/Hathor_RP-v.01-L3-8B) | 1,013 | 21 | 0 | 28 / 142 / 462 / 381 | hathor-rp |
 | 371 | [ResplendentAI/Nymph_8B](https://huggingface.co/ResplendentAI/Nymph_8B) | 1,012 | 18 | 0 | 29 / 142 / 462 / 379 | nymph |
@@ -388,26 +388,26 @@
 | 384 | [yamatazen/Ayla-Light-12B](https://huggingface.co/yamatazen/Ayla-Light-12B) | 992 | 6 | 23 | 58 / 2 / 683 / 249 | himeyuri |
 | 385 | [HumanLLMs/Human-Like-Mistral-Nemo-Instruct-2407](https://huggingface.co/HumanLLMs/Human-Like-Mistral-Nemo-Instruct-2407) | 988 | 45 | 34 | 50 / 2 / 702 / 234 | Mistral |
 | 386 | [Cas-Warehouse/Llama-3-SOVL-MopeyMule-8B](https://huggingface.co/Cas-Warehouse/Llama-3-SOVL-MopeyMule-8B) | 987 | 15 | 0 | 27 / 142 / 439 / 379 | smarts-llama3 |
-| 387 | [zelk12/recoilme-gemma-2-Ataraxy-9B-v0.1](https://huggingface.co/zelk12/recoilme-gemma-2-Ataraxy-9B-v0.1) | 985 | 25 | 0 | 32 / 0 / 449 / 504 | recoilme-gemma-2 |
+| 387 | [zelk12/recoilme-gemma-2-Ataraxy-9B-v0.1](https://huggingface.co/zelk12/recoilme-gemma-2-Ataraxy-9B-v0.1) | 985 | 25 | 0 | 32 / 0 / 449 / 504 | Gemma 2 |
 | 388 | [allenai/Olmo-3-7B-Instruct-SFT](https://huggingface.co/allenai/Olmo-3-7B-Instruct-SFT) | 981 | 56 | 440 | 825 / 71 / 84 / 1 | olmo-3-1025 |
 | 389 | [akjindal53244/Llama-3.1-Storm-8B](https://huggingface.co/akjindal53244/Llama-3.1-Storm-8B) | 979 | 60 | 6 | 21 / 4 / 563 / 391 | llama-3.1-storm |
 | 390 | [Qwen/Qwen2-VL-2B](https://huggingface.co/Qwen/Qwen2-VL-2B) | 979 | 36 | 73 | 520 / 271 / 187 / 1 | Qwen2 |
 | 391 | [microsoft/deberta-v3-base](https://huggingface.co/microsoft/deberta-v3-base) | 978 | 848 | 65 | 877 / 38 / 63 / 0 | deberta |
 | 392 | [macadeliccc/WestLake-7B-v2-laser-truthy-dpo](https://huggingface.co/macadeliccc/WestLake-7B-v2-laser-truthy-dpo) | 978 | 29 | 0 | 42 / 0 / 518 / 418 | westlake |
-| 393 | [zelk12/MT1-IF-gemma-2-RAt0.25v0.1GD-9B](https://huggingface.co/zelk12/MT1-IF-gemma-2-RAt0.25v0.1GD-9B) | 977 | 2 | 0 | 31 / 0 / 439 / 507 | Gemma 2 |
-| 394 | [zelk12/MT1-MA-gemma-2-RAt0.25v0.1RPMHv0.1-9B](https://huggingface.co/zelk12/MT1-MA-gemma-2-RAt0.25v0.1RPMHv0.1-9B) | 977 | 2 | 0 | 31 / 0 / 439 / 507 | gemma-2-ifable |
-| 395 | [zelk12/MT1-MU-gemma-2-RGDv0.1GD-9B](https://huggingface.co/zelk12/MT1-MU-gemma-2-RGDv0.1GD-9B) | 977 | 2 | 0 | 31 / 0 / 439 / 507 | Gemma 2 |
-| 396 | [zelk12/MT1-MM-gemma-2-RGDv0.1RIv0.1-9B](https://huggingface.co/zelk12/MT1-MM-gemma-2-RGDv0.1RIv0.1-9B) | 977 | 2 | 0 | 31 / 0 / 439 / 507 | Gemma 2 |
+| 393 | [zelk12/MT1-IF-gemma-2-RAt0.25v0.1GD-9B](https://huggingface.co/zelk12/MT1-IF-gemma-2-RAt0.25v0.1GD-9B) | 977 | 2 | 0 | 31 / 0 / 439 / 507 | recoilme-gemma-2 |
+| 394 | [zelk12/MT1-MA-gemma-2-RAt0.25v0.1RPMHv0.1-9B](https://huggingface.co/zelk12/MT1-MA-gemma-2-RAt0.25v0.1RPMHv0.1-9B) | 977 | 2 | 0 | 31 / 0 / 439 / 507 | recoilme-gemma-2 |
+| 395 | [zelk12/MT1-MU-gemma-2-RGDv0.1GD-9B](https://huggingface.co/zelk12/MT1-MU-gemma-2-RGDv0.1GD-9B) | 977 | 2 | 0 | 31 / 0 / 439 / 507 | recoilme-gemma-2 |
+| 396 | [zelk12/MT1-MM-gemma-2-RGDv0.1RIv0.1-9B](https://huggingface.co/zelk12/MT1-MM-gemma-2-RGDv0.1RIv0.1-9B) | 977 | 2 | 0 | 31 / 0 / 439 / 507 | gemma-2-ifable |
 | 397 | [unsloth/Meta-Llama-3.1-8B-bnb-4bit](https://huggingface.co/unsloth/Meta-Llama-3.1-8B-bnb-4bit) | 976 | 924 | 16 | 630 / 61 / 285 / 0 | Llama 3.1 |
 | 398 | [zelk12/MT1-BB-gemma-2-RIv0.1RAt0.25v0.1-9B](https://huggingface.co/zelk12/MT1-BB-gemma-2-RIv0.1RAt0.25v0.1-9B) | 975 | 2 | 0 | 31 / 0 / 438 / 506 | recoilme-gemma-2 |
-| 399 | [zelk12/MT1-GP-gemma-2-RPMHv0.1RAt0.25v0.1-9B](https://huggingface.co/zelk12/MT1-GP-gemma-2-RPMHv0.1RAt0.25v0.1-9B) | 975 | 2 | 0 | 31 / 0 / 438 / 506 | gemma-2-ifable |
-| 400 | [zelk12/MT1-IM-gemma-2-9B](https://huggingface.co/zelk12/MT1-IM-gemma-2-9B) | 975 | 2 | 0 | 31 / 0 / 438 / 506 | gemma-2-ifable |
-| 401 | [zelk12/MT1-MMU-gemma-2-9B](https://huggingface.co/zelk12/MT1-MMU-gemma-2-9B) | 975 | 2 | 0 | 31 / 0 / 438 / 506 | Gemma 2 |
-| 402 | [zelk12/MT1-GB-gemma-2-9B](https://huggingface.co/zelk12/MT1-GB-gemma-2-9B) | 973 | 2 | 0 | 31 / 0 / 437 / 505 | gemma-2-ifable |
-| 403 | [zelk12/MT1-IMMMU-gemma-2-9B](https://huggingface.co/zelk12/MT1-IMMMU-gemma-2-9B) | 973 | 2 | 0 | 31 / 0 / 437 / 505 | Gemma 2 |
-| 404 | [yamatazen/Ayla-Light-12B-v2](https://huggingface.co/yamatazen/Ayla-Light-12B-v2) | 973 | 8 | 23 | 58 / 2 / 674 / 239 | himeyuri |
+| 399 | [zelk12/MT1-GP-gemma-2-RPMHv0.1RAt0.25v0.1-9B](https://huggingface.co/zelk12/MT1-GP-gemma-2-RPMHv0.1RAt0.25v0.1-9B) | 975 | 2 | 0 | 31 / 0 / 438 / 506 | Gemma 2 |
+| 400 | [zelk12/MT1-IM-gemma-2-9B](https://huggingface.co/zelk12/MT1-IM-gemma-2-9B) | 975 | 2 | 0 | 31 / 0 / 438 / 506 | recoilme-gemma-2 |
+| 401 | [zelk12/MT1-MMU-gemma-2-9B](https://huggingface.co/zelk12/MT1-MMU-gemma-2-9B) | 975 | 2 | 0 | 31 / 0 / 438 / 506 | gemma-2-ifable |
+| 402 | [zelk12/MT1-GB-gemma-2-9B](https://huggingface.co/zelk12/MT1-GB-gemma-2-9B) | 973 | 2 | 0 | 31 / 0 / 437 / 505 | Gemma 2 |
+| 403 | [zelk12/MT1-IMMMU-gemma-2-9B](https://huggingface.co/zelk12/MT1-IMMMU-gemma-2-9B) | 973 | 2 | 0 | 31 / 0 / 437 / 505 | recoilme-gemma-2 |
+| 404 | [yamatazen/Ayla-Light-12B-v2](https://huggingface.co/yamatazen/Ayla-Light-12B-v2) | 973 | 8 | 23 | 58 / 2 / 674 / 239 | mini-magnum |
 | 405 | [PrahmodhRaj/Llama-3_Psychiatrist_Chat](https://huggingface.co/PrahmodhRaj/Llama-3_Psychiatrist_Chat) | 971 | 3 | 0 | 27 / 142 / 427 / 375 | Llama 3 |
-| 406 | [zelk12/MT1-gemma-2-9B](https://huggingface.co/zelk12/MT1-gemma-2-9B) | 971 | 43 | 0 | 31 / 0 / 436 / 504 | Gemma 2 |
+| 406 | [zelk12/MT1-gemma-2-9B](https://huggingface.co/zelk12/MT1-gemma-2-9B) | 971 | 43 | 0 | 31 / 0 / 436 / 504 | recoilme-gemma-2 |
 | 407 | [Nitral-AI/Hathor_Stable-v0.2-L3-8B](https://huggingface.co/Nitral-AI/Hathor_Stable-v0.2-L3-8B) | 969 | 26 | 0 | 25 / 142 / 426 / 376 | hathor-stable |
 | 408 | [recoilme/recoilme-gemma-2-9B-v0.3](https://huggingface.co/recoilme/recoilme-gemma-2-9B-v0.3) | 969 | 15 | 0 | 30 / 0 / 450 / 489 | recoilme-gemma-2 |
 | 409 | [victunes/TherapyLlama-8B-v1](https://huggingface.co/victunes/TherapyLlama-8B-v1) | 968 | 4 | 0 | 27 / 142 / 425 / 374 | therapyllama |
@@ -415,13 +415,13 @@
 | 411 | [Falah/lora_model_mental_health_llama3](https://huggingface.co/Falah/lora_model_mental_health_llama3) | 964 | 2 | 0 | 27 / 142 / 422 / 373 | Llama 3 |
 | 412 | [Abdo36/MentalLORALLAMA3](https://huggingface.co/Abdo36/MentalLORALLAMA3) | 964 | 2 | 0 | 27 / 142 / 422 / 373 | mentallorallama3 |
 | 413 | [Casual-Autopsy/L3-Umbral-Mind-RP-v0.3-8B](https://huggingface.co/Casual-Autopsy/L3-Umbral-Mind-RP-v0.3-8B) | 962 | 21 | 0 | 27 / 142 / 424 / 369 | Llama 3 |
-| 414 | [Cas-Warehouse/Llama-3-Mental-Therapy-Cat-8B](https://huggingface.co/Cas-Warehouse/Llama-3-Mental-Therapy-Cat-8B) | 958 | 2 | 0 | 27 / 142 / 418 / 371 | Llama 3 |
+| 414 | [Cas-Warehouse/Llama-3-Mental-Therapy-Cat-8B](https://huggingface.co/Cas-Warehouse/Llama-3-Mental-Therapy-Cat-8B) | 958 | 2 | 0 | 27 / 142 / 418 / 371 | therapyllama |
 | 415 | [Cas-Warehouse/Llama-3-Psychology-LoRA-Stock-8B](https://huggingface.co/Cas-Warehouse/Llama-3-Psychology-LoRA-Stock-8B) | 956 | 3 | 0 | 27 / 142 / 417 / 370 | Llama 3 |
 | 416 | [ReadyArt/Forgotten-Safeword-12B-v4.0](https://huggingface.co/ReadyArt/Forgotten-Safeword-12B-v4.0) | 952 | 31 | 54 | 47 / 3 / 682 / 220 | unslopnemo |
-| 417 | [Cas-Warehouse/Llama-3-Mopeyfied-Psychology-8B](https://huggingface.co/Cas-Warehouse/Llama-3-Mopeyfied-Psychology-8B) | 951 | 5 | 0 | 27 / 142 / 414 / 368 | smarts-llama3 |
+| 417 | [Cas-Warehouse/Llama-3-Mopeyfied-Psychology-8B](https://huggingface.co/Cas-Warehouse/Llama-3-Mopeyfied-Psychology-8B) | 951 | 5 | 0 | 27 / 142 / 414 / 368 | Llama 3 |
 | 418 | [nbeerbower/Llama-3.1-Nemotron-lorablated-70B](https://huggingface.co/nbeerbower/Llama-3.1-Nemotron-lorablated-70B) | 948 | 127 | 0 | 24 / 7 / 560 / 357 | Llama 3.1 |
 | 419 | [recoilme/Gemma-2-Ataraxy-Gemmasutra-9B-slerp](https://huggingface.co/recoilme/Gemma-2-Ataraxy-Gemmasutra-9B-slerp) | 947 | 8 | 0 | 30 / 0 / 437 / 480 | gemma-2-ataraxy-gemmasutra |
-| 420 | [Casual-Autopsy/L3-Umbral-Mind-RP-v1.0-8B](https://huggingface.co/Casual-Autopsy/L3-Umbral-Mind-RP-v1.0-8B) | 946 | 19 | 0 | 27 / 142 / 411 / 366 | Llama 3 |
+| 420 | [Casual-Autopsy/L3-Umbral-Mind-RP-v1.0-8B](https://huggingface.co/Casual-Autopsy/L3-Umbral-Mind-RP-v1.0-8B) | 946 | 19 | 0 | 27 / 142 / 411 / 366 | smarts-llama3 |
 | 421 | [grimjim/Gemma2-Nephilim-v3-9B](https://huggingface.co/grimjim/Gemma2-Nephilim-v3-9B) | 945 | 6 | 0 | 30 / 0 / 435 / 480 | Gemma 2 |
 | 422 | [lemon07r/Gemma-2-Ataraxy-v2a-9B](https://huggingface.co/lemon07r/Gemma-2-Ataraxy-v2a-9B) | 943 | 4 | 0 | 30 / 0 / 433 / 480 | Gemma 2 |
 | 423 | [lemon07r/Gemma-2-Ataraxy-Remix-9B](https://huggingface.co/lemon07r/Gemma-2-Ataraxy-Remix-9B) | 939 | 11 | 0 | 30 / 0 / 431 / 478 | Gemma 2 |
@@ -434,71 +434,71 @@
 | 430 | [tannedbum/L3-Nymeria-8B](https://huggingface.co/tannedbum/L3-Nymeria-8B) | 934 | 18 | 0 | 25 / 142 / 405 / 362 | Llama 3 |
 | 431 | [Qwen/Qwen3-Embedding-0.6B](https://huggingface.co/Qwen/Qwen3-Embedding-0.6B) | 932 | 865 | 411 | 571 / 33 / 327 / 1 | Qwen3 |
 | 432 | [Qwen/Qwen2-VL-2B-Instruct](https://huggingface.co/Qwen/Qwen2-VL-2B-Instruct) | 931 | 628 | 68 | 494 / 262 / 174 / 1 | Qwen2 |
-| 433 | [zelk12/MT3-GP-gemma-2-RPMHv0.1RAt0.25v0.1-9B](https://huggingface.co/zelk12/MT3-GP-gemma-2-RPMHv0.1RAt0.25v0.1-9B) | 931 | 2 | 0 | 30 / 0 / 429 / 472 | Gemma 2 |
-| 434 | [zelk12/MT3-MU-gemma-2-Rv0.3AR-9B](https://huggingface.co/zelk12/MT3-MU-gemma-2-Rv0.3AR-9B) | 931 | 2 | 0 | 30 / 0 / 429 / 472 | Gemma 2 |
-| 435 | [zelk12/MT3-GMU-gemma-2-9B](https://huggingface.co/zelk12/MT3-GMU-gemma-2-9B) | 929 | 3 | 0 | 30 / 0 / 428 / 471 | Gemma 2 |
+| 433 | [zelk12/MT3-GP-gemma-2-RPMHv0.1RAt0.25v0.1-9B](https://huggingface.co/zelk12/MT3-GP-gemma-2-RPMHv0.1RAt0.25v0.1-9B) | 931 | 2 | 0 | 30 / 0 / 429 / 472 | recoilme-gemma-2 |
+| 434 | [zelk12/MT3-MU-gemma-2-Rv0.3AR-9B](https://huggingface.co/zelk12/MT3-MU-gemma-2-Rv0.3AR-9B) | 931 | 2 | 0 | 30 / 0 / 429 / 472 | recoilme-gemma-2 |
+| 435 | [zelk12/MT3-GMU-gemma-2-9B](https://huggingface.co/zelk12/MT3-GMU-gemma-2-9B) | 929 | 3 | 0 | 30 / 0 / 428 / 471 | recoilme-gemma-2 |
 | 436 | [aifeifei798/llama3-8B-DarkIdol-1.0](https://huggingface.co/aifeifei798/llama3-8B-DarkIdol-1.0) | 928 | 7 | 0 | 25 / 142 / 399 / 362 | Llama 3 |
 | 437 | [tannedbum/L3-Nymeria-Maid-8B](https://huggingface.co/tannedbum/L3-Nymeria-Maid-8B) | 928 | 13 | 0 | 25 / 142 / 399 / 362 | Llama 3 |
-| 438 | [zelk12/MT2-MA-gemma-2-RPMHv0.1Rv0.3-9B](https://huggingface.co/zelk12/MT2-MA-gemma-2-RPMHv0.1Rv0.3-9B) | 926 | 2 | 0 | 30 / 0 / 427 / 469 | recoilme-gemma-2 |
+| 438 | [zelk12/MT2-MA-gemma-2-RPMHv0.1Rv0.3-9B](https://huggingface.co/zelk12/MT2-MA-gemma-2-RPMHv0.1Rv0.3-9B) | 926 | 2 | 0 | 30 / 0 / 427 / 469 | Gemma 2 |
 | 439 | [zelk12/MT2-MM-gemma-2-Rv0.4RAt0.25v0.1-9B](https://huggingface.co/zelk12/MT2-MM-gemma-2-Rv0.4RAt0.25v0.1-9B) | 926 | 2 | 0 | 30 / 0 / 427 / 469 | recoilme-gemma-2 |
-| 440 | [Cas-Warehouse/Llama-3-SOVL-MopeyMule-Blackroot-8B](https://huggingface.co/Cas-Warehouse/Llama-3-SOVL-MopeyMule-Blackroot-8B) | 925 | 8 | 0 | 25 / 142 / 397 / 361 | smarts-llama3 |
+| 440 | [Cas-Warehouse/Llama-3-SOVL-MopeyMule-Blackroot-8B](https://huggingface.co/Cas-Warehouse/Llama-3-SOVL-MopeyMule-Blackroot-8B) | 925 | 8 | 0 | 25 / 142 / 397 / 361 | Llama 3 |
 | 441 | [unsloth/mistral-7b-bnb-4bit](https://huggingface.co/unsloth/mistral-7b-bnb-4bit) | 924 | 880 | 10 | 616 / 109 / 194 / 5 | Mistral |
 | 442 | [zelk12/MT2-IF-gemma-2-RIv0.1RAt0.25v0.1-9B](https://huggingface.co/zelk12/MT2-IF-gemma-2-RIv0.1RAt0.25v0.1-9B) | 924 | 2 | 0 | 30 / 0 / 426 / 468 | gemma-2-ifable |
-| 443 | [zelk12/MT2-BB-gemma-2-RGDv0.1RAt0.25v0.1-9B](https://huggingface.co/zelk12/MT2-BB-gemma-2-RGDv0.1RAt0.25v0.1-9B) | 924 | 2 | 0 | 30 / 0 / 426 / 468 | Gemma 2 |
+| 443 | [zelk12/MT2-BB-gemma-2-RGDv0.1RAt0.25v0.1-9B](https://huggingface.co/zelk12/MT2-BB-gemma-2-RGDv0.1RAt0.25v0.1-9B) | 924 | 2 | 0 | 30 / 0 / 426 / 468 | recoilme-gemma-2 |
 | 444 | [zelk12/MT2-MMMA-gemma-2-9B](https://huggingface.co/zelk12/MT2-MMMA-gemma-2-9B) | 924 | 2 | 0 | 30 / 0 / 426 / 468 | recoilme-gemma-2 |
 | 445 | [Cas-Warehouse/Llama-3-Mopeyfied-Psychology-v2](https://huggingface.co/Cas-Warehouse/Llama-3-Mopeyfied-Psychology-v2) | 922 | 12 | 0 | 25 / 142 / 395 / 360 | Llama 3 |
 | 446 | [aifeifei798/llama3-8B-DarkIdol-2.1-Uncensored-32K](https://huggingface.co/aifeifei798/llama3-8B-DarkIdol-2.1-Uncensored-32K) | 922 | 12 | 0 | 25 / 142 / 397 / 358 | Llama 3 |
-| 447 | [zelk12/MT2-IB-gemma-2-9B](https://huggingface.co/zelk12/MT2-IB-gemma-2-9B) | 922 | 2 | 0 | 30 / 0 / 425 / 467 | gemma-2-ifable |
+| 447 | [zelk12/MT2-IB-gemma-2-9B](https://huggingface.co/zelk12/MT2-IB-gemma-2-9B) | 922 | 2 | 0 | 30 / 0 / 425 / 467 | recoilme-gemma-2 |
 | 448 | [zelk12/MT2-MMMAGMU-gemma-2-9B](https://huggingface.co/zelk12/MT2-MMMAGMU-gemma-2-9B) | 922 | 2 | 0 | 30 / 0 / 425 / 467 | recoilme-gemma-2 |
-| 449 | [zelk12/MT2-gemma-2-9B](https://huggingface.co/zelk12/MT2-gemma-2-9B) | 920 | 24 | 0 | 30 / 0 / 424 / 466 | gemma-2-ifable |
+| 449 | [zelk12/MT2-gemma-2-9B](https://huggingface.co/zelk12/MT2-gemma-2-9B) | 920 | 24 | 0 | 30 / 0 / 424 / 466 | recoilme-gemma-2 |
 | 450 | [TheDrummer/UnslopNemo-12B-v4](https://huggingface.co/TheDrummer/UnslopNemo-12B-v4) | 919 | 11 | 15 | 53 / 3 / 629 / 234 | unslopnemo |
 | 451 | [allenai/Olmo-3-7B-Instruct-DPO](https://huggingface.co/allenai/Olmo-3-7B-Instruct-DPO) | 918 | 15 | 427 | 791 / 54 / 72 / 1 | olmo-3-1025 |
 | 452 | [Casual-Autopsy/L3-Uncen-Merger-Omelette-RP-v0.2-8B](https://huggingface.co/Casual-Autopsy/L3-Uncen-Merger-Omelette-RP-v0.2-8B) | 915 | 3 | 0 | 25 / 142 / 390 / 358 | Llama 3 |
 | 453 | [HuggingFaceTB/SmolLM2-135M-Instruct](https://huggingface.co/HuggingFaceTB/SmolLM2-135M-Instruct) | 912 | 610 | 117 | 528 / 127 / 252 / 5 | SmolLM2 |
-| 454 | [Casual-Autopsy/L3-Umbral-Mind-RP-v2.0-8B](https://huggingface.co/Casual-Autopsy/L3-Umbral-Mind-RP-v2.0-8B) | 912 | 8 | 0 | 25 / 142 / 390 / 355 | Llama 3 |
+| 454 | [Casual-Autopsy/L3-Umbral-Mind-RP-v2.0-8B](https://huggingface.co/Casual-Autopsy/L3-Umbral-Mind-RP-v2.0-8B) | 912 | 8 | 0 | 25 / 142 / 390 / 355 | smarts-llama3 |
 | 455 | [Magpie-Align/Llama-3-8B-WizardLM-196K](https://huggingface.co/Magpie-Align/Llama-3-8B-WizardLM-196K) | 910 | 7 | 0 | 25 / 142 / 390 / 353 | Llama 3 |
 | 456 | [Sao10K/MN-12B-Lyra-v1](https://huggingface.co/Sao10K/MN-12B-Lyra-v1) | 909 | 29 | 11 | 46 / 1 / 600 / 262 | mn |
-| 457 | [zelk12/MT5-IF-gemma-2-RIv0.1RAv0.1-9B](https://huggingface.co/zelk12/MT5-IF-gemma-2-RIv0.1RAv0.1-9B) | 909 | 2 | 0 | 32 / 0 / 418 / 459 | recoilme-gemma-2 |
-| 458 | [zelk12/MT5-MA-gemma-2-Av4cPMH-9B](https://huggingface.co/zelk12/MT5-MA-gemma-2-Av4cPMH-9B) | 909 | 2 | 0 | 32 / 0 / 418 / 459 | Gemma 2 |
-| 459 | [zelk12/MT5-GP-gemma-2-RIv0.1RAv0.1-9B](https://huggingface.co/zelk12/MT5-GP-gemma-2-RIv0.1RAv0.1-9B) | 909 | 2 | 0 | 32 / 0 / 418 / 459 | recoilme-gemma-2 |
-| 460 | [zelk12/MT5-MU-gemma-2-Rv0.4G-9B](https://huggingface.co/zelk12/MT5-MU-gemma-2-Rv0.4G-9B) | 909 | 2 | 0 | 32 / 0 / 418 / 459 | recoilme-gemma-2 |
+| 457 | [zelk12/MT5-IF-gemma-2-RIv0.1RAv0.1-9B](https://huggingface.co/zelk12/MT5-IF-gemma-2-RIv0.1RAv0.1-9B) | 909 | 2 | 0 | 32 / 0 / 418 / 459 | Gemma 2 |
+| 458 | [zelk12/MT5-MA-gemma-2-Av4cPMH-9B](https://huggingface.co/zelk12/MT5-MA-gemma-2-Av4cPMH-9B) | 909 | 2 | 0 | 32 / 0 / 418 / 459 | recoilme-gemma-2 |
+| 459 | [zelk12/MT5-GP-gemma-2-RIv0.1RAv0.1-9B](https://huggingface.co/zelk12/MT5-GP-gemma-2-RIv0.1RAv0.1-9B) | 909 | 2 | 0 | 32 / 0 / 418 / 459 | Gemma 2 |
+| 460 | [zelk12/MT5-MU-gemma-2-Rv0.4G-9B](https://huggingface.co/zelk12/MT5-MU-gemma-2-Rv0.4G-9B) | 909 | 2 | 0 | 32 / 0 / 418 / 459 | Gemma 2 |
 | 461 | [HuggingFaceH4/zephyr-7b-beta](https://huggingface.co/HuggingFaceH4/zephyr-7b-beta) | 908 | 691 | 10 | 182 / 467 / 148 / 111 | Mistral |
 | 462 | [lerobot/pi05_base](https://huggingface.co/lerobot/pi05_base) | 908 | 871 | 696 | 864 / 38 / 6 / 0 | paligemma |
 | 463 | [zelk12/MT5-BB-gemma-2-Av4cRAv0.1-9B](https://huggingface.co/zelk12/MT5-BB-gemma-2-Av4cRAv0.1-9B) | 907 | 2 | 0 | 32 / 0 / 417 / 458 | Gemma 2 |
-| 464 | [zelk12/MT5-MM-gemma-2-Rv0.4Av4c-9B](https://huggingface.co/zelk12/MT5-MM-gemma-2-Rv0.4Av4c-9B) | 907 | 2 | 0 | 32 / 0 / 417 / 458 | Gemma 2 |
-| 465 | [zelk12/MT5-IG-gemma-2-9B](https://huggingface.co/zelk12/MT5-IG-gemma-2-9B) | 907 | 2 | 0 | 32 / 0 / 417 / 458 | recoilme-gemma-2 |
+| 464 | [zelk12/MT5-MM-gemma-2-Rv0.4Av4c-9B](https://huggingface.co/zelk12/MT5-MM-gemma-2-Rv0.4Av4c-9B) | 907 | 2 | 0 | 32 / 0 / 417 / 458 | recoilme-gemma-2 |
+| 465 | [zelk12/MT5-IG-gemma-2-9B](https://huggingface.co/zelk12/MT5-IG-gemma-2-9B) | 907 | 2 | 0 | 32 / 0 / 417 / 458 | Gemma 2 |
 | 466 | [zelk12/MT5-MAMU-gemma-2-9B](https://huggingface.co/zelk12/MT5-MAMU-gemma-2-9B) | 907 | 2 | 0 | 32 / 0 / 417 / 458 | Gemma 2 |
 | 467 | [yamatazen/Aurora-SCE-12B](https://huggingface.co/yamatazen/Aurora-SCE-12B) | 907 | 7 | 23 | 51 / 2 / 639 / 215 | Mistral |
-| 468 | [yamatazen/EtherealLight-12B](https://huggingface.co/yamatazen/EtherealLight-12B) | 906 | 5 | 23 | 51 / 2 / 638 / 215 | lumimaid |
+| 468 | [yamatazen/EtherealLight-12B](https://huggingface.co/yamatazen/EtherealLight-12B) | 906 | 5 | 23 | 51 / 2 / 638 / 215 | Mistral |
 | 469 | [zelk12/MT5-MMB-gemma-2-9B](https://huggingface.co/zelk12/MT5-MMB-gemma-2-9B) | 905 | 2 | 0 | 32 / 0 / 416 / 457 | Gemma 2 |
 | 470 | [zelk12/MT5-IGMAMU-gemma-2-9B](https://huggingface.co/zelk12/MT5-IGMAMU-gemma-2-9B) | 905 | 2 | 0 | 32 / 0 / 416 / 457 | Gemma 2 |
 | 471 | [allenai/Olmo-3-7B-Instruct](https://huggingface.co/allenai/Olmo-3-7B-Instruct) | 903 | 415 | 419 | 782 / 51 / 69 / 1 | olmo-3-1025 |
 | 472 | [VAGOsolutions/Llama-3.1-SauerkrautLM-8b-Instruct](https://huggingface.co/VAGOsolutions/Llama-3.1-SauerkrautLM-8b-Instruct) | 903 | 243 | 3 | 16 / 193 / 382 / 312 | llama-3.1-sauerkrautlm |
 | 473 | [zelk12/MT5-gemma-2-9B](https://huggingface.co/zelk12/MT5-gemma-2-9B) | 903 | 16 | 0 | 32 / 0 / 415 / 456 | Gemma 2 |
-| 474 | [yamatazen/Aurora-SCE-12B-v2](https://huggingface.co/yamatazen/Aurora-SCE-12B-v2) | 903 | 4 | 23 | 51 / 2 / 636 / 214 | rocinante |
+| 474 | [yamatazen/Aurora-SCE-12B-v2](https://huggingface.co/yamatazen/Aurora-SCE-12B-v2) | 903 | 4 | 23 | 51 / 2 / 636 / 214 | himeyuri |
 | 475 | [deepseek-ai/DeepSeek-R1-Distill-Qwen-32B](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-32B) | 900 | 498 | 26 | 171 / 248 / 409 / 72 | DeepSeek-R1 |
 | 476 | [invisietch/EtherealRainbow-v0.3-8B](https://huggingface.co/invisietch/EtherealRainbow-v0.3-8B) | 900 | 8 | 0 | 25 / 142 / 385 / 348 | etherealrainbow |
-| 477 | [yamatazen/EtherealAurora-12B](https://huggingface.co/yamatazen/EtherealAurora-12B) | 899 | 23 | 23 | 51 / 2 / 633 / 213 | himeyuri |
+| 477 | [yamatazen/EtherealAurora-12B](https://huggingface.co/yamatazen/EtherealAurora-12B) | 899 | 23 | 23 | 51 / 2 / 633 / 213 | Mistral |
 | 478 | [facebook/detr-resnet-50](https://huggingface.co/facebook/detr-resnet-50) | 896 | 876 | 78 | 889 / 1 / 6 / 0 | detr-resnet-50 |
 | 479 | [google/gemma-2b-it](https://huggingface.co/google/gemma-2b-it) | 894 | 869 | 4 | 132 / 680 / 56 / 26 | Gemma 1 |
 | 480 | [distilbert/distilroberta-base](https://huggingface.co/distilbert/distilroberta-base) | 893 | 813 | 26 | 846 / 7 / 39 / 1 | distilroberta |
-| 481 | [Casual-Autopsy/L3-Umbral-Mind-RP-v3.0-8B](https://huggingface.co/Casual-Autopsy/L3-Umbral-Mind-RP-v3.0-8B) | 888 | 209 | 0 | 25 / 142 / 376 / 345 | smarts-llama3 |
+| 481 | [Casual-Autopsy/L3-Umbral-Mind-RP-v3.0-8B](https://huggingface.co/Casual-Autopsy/L3-Umbral-Mind-RP-v3.0-8B) | 888 | 209 | 0 | 25 / 142 / 376 / 345 | Llama 3 |
 | 482 | [grimjim/Llama-3-Instruct-abliteration-LoRA-8B](https://huggingface.co/grimjim/Llama-3-Instruct-abliteration-LoRA-8B) | 880 | 60 | 0 | 27 / 12 / 479 / 362 | Llama 3 |
 | 483 | [togethercomputer/Meta-Llama-3.3-70B-Instruct-Reference](https://huggingface.co/togethercomputer/Meta-Llama-3.3-70B-Instruct-Reference) † | 879 | 879 | 7 | 0 / 879 / 0 / 0 | meta-llama-3.3 |
-| 484 | [zelk12/MT4-IF-gemma-2-RIv0.1RPMHv0.1-9B](https://huggingface.co/zelk12/MT4-IF-gemma-2-RIv0.1RPMHv0.1-9B) | 878 | 2 | 0 | 29 / 0 / 407 / 442 | Gemma 2 |
+| 484 | [zelk12/MT4-IF-gemma-2-RIv0.1RPMHv0.1-9B](https://huggingface.co/zelk12/MT4-IF-gemma-2-RIv0.1RPMHv0.1-9B) | 878 | 2 | 0 | 29 / 0 / 407 / 442 | gemma-2-ifable |
 | 485 | [zelk12/MT4-MA-gemma-2-RPMHv0.1RGDv0.1-9B](https://huggingface.co/zelk12/MT4-MA-gemma-2-RPMHv0.1RGDv0.1-9B) | 878 | 2 | 0 | 29 / 0 / 407 / 442 | Gemma 2 |
-| 486 | [zelk12/MT4-GP-gemma-2-RIv0.1RGDv0.1-9B](https://huggingface.co/zelk12/MT4-GP-gemma-2-RIv0.1RGDv0.1-9B) | 878 | 2 | 0 | 29 / 0 / 407 / 442 | recoilme-gemma-2 |
+| 486 | [zelk12/MT4-GP-gemma-2-RIv0.1RGDv0.1-9B](https://huggingface.co/zelk12/MT4-GP-gemma-2-RIv0.1RGDv0.1-9B) | 878 | 2 | 0 | 29 / 0 / 407 / 442 | gemma-2-ifable |
 | 487 | [zelk12/MT4-MU-gemma-2-Rv0.4RGDv0.1-9B](https://huggingface.co/zelk12/MT4-MU-gemma-2-Rv0.4RGDv0.1-9B) | 878 | 2 | 0 | 29 / 0 / 407 / 442 | recoilme-gemma-2 |
 | 488 | [automerger/YamShadow-7B](https://huggingface.co/automerger/YamShadow-7B) | 877 | 29 | 0 | 34 / 0 / 462 / 381 | shadow-clown |
-| 489 | [zelk12/MT4-BB-gemma-2-RGDv0.1RPMHv0.1-9B](https://huggingface.co/zelk12/MT4-BB-gemma-2-RGDv0.1RPMHv0.1-9B) | 876 | 2 | 0 | 29 / 0 / 406 / 441 | Gemma 2 |
+| 489 | [zelk12/MT4-BB-gemma-2-RGDv0.1RPMHv0.1-9B](https://huggingface.co/zelk12/MT4-BB-gemma-2-RGDv0.1RPMHv0.1-9B) | 876 | 2 | 0 | 29 / 0 / 406 / 441 | recoilme-gemma-2 |
 | 490 | [zelk12/MT4-MM-gemma-2-Rv0.4RPMHv0.1-9B](https://huggingface.co/zelk12/MT4-MM-gemma-2-Rv0.4RPMHv0.1-9B) | 876 | 2 | 0 | 29 / 0 / 406 / 441 | recoilme-gemma-2 |
-| 491 | [zelk12/MT4-IMU-gemma-2-9B](https://huggingface.co/zelk12/MT4-IMU-gemma-2-9B) | 876 | 2 | 0 | 29 / 0 / 406 / 441 | recoilme-gemma-2 |
+| 491 | [zelk12/MT4-IMU-gemma-2-9B](https://huggingface.co/zelk12/MT4-IMU-gemma-2-9B) | 876 | 2 | 0 | 29 / 0 / 406 / 441 | gemma-2-ifable |
 | 492 | [zelk12/MT4-GMA-gemma-2-9B](https://huggingface.co/zelk12/MT4-GMA-gemma-2-9B) | 876 | 2 | 0 | 29 / 0 / 406 / 441 | Gemma 2 |
 | 493 | [shisa-ai/shisa-v2-mistral-nemo-12b](https://huggingface.co/shisa-ai/shisa-v2-mistral-nemo-12b) | 875 | 31 | 26 | 38 / 2 / 652 / 183 | Mistral |
 | 494 | [zelk12/MT4-BMM-gemma-2-9B](https://huggingface.co/zelk12/MT4-BMM-gemma-2-9B) | 874 | 2 | 0 | 29 / 0 / 405 / 440 | recoilme-gemma-2 |
-| 495 | [zelk12/MT4-IMUGMA-gemma-2-9B](https://huggingface.co/zelk12/MT4-IMUGMA-gemma-2-9B) | 874 | 2 | 0 | 29 / 0 / 405 / 440 | Gemma 2 |
-| 496 | [zelk12/MT4-gemma-2-9B](https://huggingface.co/zelk12/MT4-gemma-2-9B) | 872 | 6 | 0 | 29 / 0 / 404 / 439 | Gemma 2 |
+| 495 | [zelk12/MT4-IMUGMA-gemma-2-9B](https://huggingface.co/zelk12/MT4-IMUGMA-gemma-2-9B) | 874 | 2 | 0 | 29 / 0 / 405 / 440 | gemma-2-ifable |
+| 496 | [zelk12/MT4-gemma-2-9B](https://huggingface.co/zelk12/MT4-gemma-2-9B) | 872 | 6 | 0 | 29 / 0 / 404 / 439 | recoilme-gemma-2 |
 | 497 | [google-t5/t5-base](https://huggingface.co/google-t5/t5-base) | 869 | 818 | 22 | 743 / 91 / 34 / 1 | T5 |
 | 498 | [Qwen/Qwen3-VL-2B-Instruct](https://huggingface.co/Qwen/Qwen3-VL-2B-Instruct) | 869 | 490 | 183 | 429 / 163 / 277 / 0 | Qwen3 |
-| 499 | [zelk12/MT3-BB-gemma-2-RIv0.1Rv0.3-9B](https://huggingface.co/zelk12/MT3-BB-gemma-2-RIv0.1Rv0.3-9B) | 868 | 2 | 0 | 29 / 0 / 405 / 434 | recoilme-gemma-2 |
+| 499 | [zelk12/MT3-BB-gemma-2-RIv0.1Rv0.3-9B](https://huggingface.co/zelk12/MT3-BB-gemma-2-RIv0.1Rv0.3-9B) | 868 | 2 | 0 | 29 / 0 / 405 / 434 | gemma-2-ifable |
 | 500 | [zelk12/MT3-MM-gemma-2-RIv0.1RGDv0.1-9B](https://huggingface.co/zelk12/MT3-MM-gemma-2-RIv0.1RGDv0.1-9B) | 868 | 2 | 0 | 29 / 0 / 405 / 434 | recoilme-gemma-2 |
