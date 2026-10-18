@@ -1,1 +1,1 @@
-{"generated_at":"2026-10-18","source_date":"2026-10-17","models":3161429,"with_ancestry":897225,"edges":930179,"parents":88174,"roots":45007,"ghost_parents":3938,"cyclic_nodes":67,"families":23964,"by_rel":{"finetune":357141,"adapter":334017,"quantized":190761,"merge":15306}}
+{"generated_at":"2026-10-18","source_date":"2026-10-17","models":3161429,"with_ancestry":897225,"edges":930179,"parents":88174,"connected":942270,"roots":45007,"ghost_parents":3938,"cyclic_nodes":67,"families":23964,"by_rel":{"finetune":357141,"adapter":334017,"quantized":190761,"merge":15306}}

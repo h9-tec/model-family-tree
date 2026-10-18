@@ -150,7 +150,7 @@ def readme(lb: dict, stats: dict, date: str) -> str:
 
 <a href="{SITE}galaxy.html"><img src="assets/galaxy.png" alt="The Model Galaxy: every Hugging Face model with an ancestor or a descendant, as one zoomable map. Families are clusters, base models are stars, derivatives are the dots around them." width="100%"/></a>
 
-**[Fly through the Model Galaxy →]({SITE}galaxy.html)** · {n(s['parents'] + s['with_ancestry'])}+ models in one zoomable WebGL map · **[Explorer →]({SITE})** · search any model, walk its pedigree, share a link.
+**[Fly through the Model Galaxy →]({SITE}galaxy.html)** · {n(s['connected'])} models in one zoomable WebGL map · **[Explorer →]({SITE})** · search any model, walk its pedigree, share a link.
 
 # Open Model Family Tree
 
@@ -192,7 +192,7 @@ Tools: `lineage(id)`, `children(id)`, `leaderboard(kind)`, `family(name)`, `sear
 
 | | |
 |---|---|
-| **[Galaxy]({SITE}galaxy.html)** | Every model that has an ancestor or a descendant ({n(s['with_ancestry'] + s['parents'])}+ points) in one WebGL map. Families are circle-packed clusters, base models are stars, each derivative is a dot colored by relation and sized by downloads. Scroll to zoom from the whole Hub down to one model, click any dot. |
+| **[Galaxy]({SITE}galaxy.html)** | Every model that has an ancestor or a descendant ({n(s['connected'])} points) in one WebGL map. Families are circle-packed clusters, base models are stars, each derivative is a dot colored by relation and sized by downloads. Scroll to zoom from the whole Hub down to one model, click any dot. |
 | **[Explorer]({SITE})** | Type any model id. Its pedigree is drawn as a radial tree: every ancestor path fans out to the left (merges show all parents), the most downloaded descendants to the right, unfoldable level by level, live from the Hub. |
 | **[Leaderboard]({SITE}#board:all)** | All {n(s['parents'])} models with descendants, sortable and filterable, plus the curated views below. |
 

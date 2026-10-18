@@ -205,6 +205,7 @@ def build_leaderboards(g: Graph, nodes: pl.DataFrame, today: int, top_models: in
         "with_ancestry": int((g.node_rel < N_REL - 1).sum()),
         "edges": sum(len(c) for c in g.children),
         "parents": n_parents,
+        "connected": int(sum(1 for v in range(len(g.ids)) if g.parents[v] or g.children[v])),
         "roots": int(len(g.roots())),
         "ghost_parents": len(g.ids) - g.n_real,
         "cyclic_nodes": len(g.cyclic),
