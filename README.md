@@ -1,6 +1,6 @@
 <div align="center">
 
-<a href="https://h9-tec.github.io/model-family-tree/galaxy.html"><img src="assets/galaxy.png" alt="The Model Galaxy: every Hugging Face model with an ancestor or a descendant, as one zoomable map. Families are clusters, base models are stars, derivatives are the dots around them." width="100%"/></a>
+<a href="https://h9-tec.github.io/model-family-tree/galaxy.html"><img src="assets/galaxy.jpg" alt="The Model Galaxy: every Hugging Face model with an ancestor or a descendant, as one zoomable map. Families are clusters, base models are stars, derivatives are the dots around them." width="100%"/></a>
 
 **[Fly through the Model Galaxy →](https://h9-tec.github.io/model-family-tree/galaxy.html)** · 942,270 models in one zoomable WebGL map · **[Explorer →](https://h9-tec.github.io/model-family-tree/)** · search any model, walk its pedigree, share a link.
 

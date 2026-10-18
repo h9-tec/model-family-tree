@@ -148,7 +148,7 @@ def readme(lb: dict, stats: dict, date: str) -> str:
     pct = 100 * s["with_ancestry"] / s["models"]
     return f"""<div align="center">
 
-<a href="{SITE}galaxy.html"><img src="assets/galaxy.png" alt="The Model Galaxy: every Hugging Face model with an ancestor or a descendant, as one zoomable map. Families are clusters, base models are stars, derivatives are the dots around them." width="100%"/></a>
+<a href="{SITE}galaxy.html"><img src="assets/galaxy.jpg" alt="The Model Galaxy: every Hugging Face model with an ancestor or a descendant, as one zoomable map. Families are clusters, base models are stars, derivatives are the dots around them." width="100%"/></a>
 
 **[Fly through the Model Galaxy →]({SITE}galaxy.html)** · {n(s['connected'])} models in one zoomable WebGL map · **[Explorer →]({SITE})** · search any model, walk its pedigree, share a link.
 

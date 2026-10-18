@@ -4,6 +4,8 @@
   const fmt = (n) => Number(n).toLocaleString("en-US");
   const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
   const BASE = "dist/galaxy/";
+  const params = new URLSearchParams(location.search);
+  if (params.has("clean")) document.body.classList.add("clean");  // poster mode: no controls
   const COLORS = [[0.35, 0.66, 1.0], [1.0, 0.62, 0.26], [0.43, 0.9, 0.63], [1.0, 0.42, 0.62], [0.7, 0.7, 0.8], [1.0, 0.84, 0.4], [0.54, 0.54, 0.59]];
 
   const [meta, buf] = await Promise.all([fetch(BASE + "meta.json").then((r) => r.json()), fetch(BASE + "points.bin").then((r) => r.arrayBuffer())]);
@@ -69,7 +71,7 @@
     canvas.width = labels.width = W * dpr; canvas.height = labels.height = H * dpr; gl.viewport(0, 0, W * dpr, H * dpr);
     draw();
   }
-  function fitAll() { const k = Math.min(W, H) / (2.1 * meta.radius); return d3.zoomIdentity.translate(W / 2, H / 2).scale(k); }
+  function fitAll() { const k = Math.min(W, H) / ((params.has("clean") ? 1.9 : 2.1) * meta.radius); return d3.zoomIdentity.translate(W / 2, H / 2).scale(k); }
   function draw() {
     gl.clearColor(0.027, 0.027, 0.047, 1); gl.clear(gl.COLOR_BUFFER_BIT);
     gl.uniform2f(U.scale, 2 / W, 2 / H); gl.uniform2f(U.offset, t.x, t.y); gl.uniform1f(U.k, t.k); gl.uniform1f(U.dpr, dpr);
