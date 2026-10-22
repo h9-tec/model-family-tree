@@ -1,53 +1,53 @@
 # Open Model Family Tree
 
-> The ancestry of every model on the Hugging Face Hub, rebuilt nightly from declared base_model metadata. Generated 2026-10-21 from the 2026-10-21 Hub dump.
+> The ancestry of every model on the Hugging Face Hub, rebuilt nightly from declared base_model metadata. Generated 2026-10-22 from the 2026-10-22 Hub dump.
 
-- 3,171,188 models tracked, 900,316 declare a base model, 933,265 parent links, 88,549 models have descendants.
+- 3,174,428 models tracked, 901,773 declare a base model, 934,724 parent links, 88,719 models have descendants.
 - Counts are unique descendants (finetunes, adapters, quantizations, merges), each counted once.
 
 ## Most-descended base models (all time)
-1. black-forest-labs/FLUX.1-dev: 43,700 descendants (226 in the last 90 days)
+1. black-forest-labs/FLUX.1-dev: 43,702 descendants (225 in the last 90 days)
 2. Qwen/Qwen1.5-0.5B: 32,564 descendants (0 in the last 90 days)
 3. Qwen/Qwen1.5-1.8B: 30,657 descendants (1 in the last 90 days)
-4. google/gemma-2b: 24,115 descendants (11 in the last 90 days)
-5. Qwen/Qwen2.5-7B: 22,768 descendants (2,964 in the last 90 days)
-6. meta-llama/Llama-3.1-8B: 21,572 descendants (2,384 in the last 90 days)
-7. meta-llama/Llama-3.1-8B-Instruct: 15,167 descendants (1,655 in the last 90 days)
-8. Qwen/Qwen2.5-7B-Instruct: 14,372 descendants (2,061 in the last 90 days)
-9. distilbert/distilbert-base-uncased: 13,631 descendants (799 in the last 90 days)
+4. google/gemma-2b: 24,115 descendants (10 in the last 90 days)
+5. Qwen/Qwen2.5-7B: 22,802 descendants (2,925 in the last 90 days)
+6. meta-llama/Llama-3.1-8B: 21,557 descendants (2,363 in the last 90 days)
+7. meta-llama/Llama-3.1-8B-Instruct: 15,151 descendants (1,637 in the last 90 days)
+8. Qwen/Qwen2.5-7B-Instruct: 14,397 descendants (2,025 in the last 90 days)
+9. distilbert/distilbert-base-uncased: 13,639 descendants (802 in the last 90 days)
 10. mistralai/Mistral-7B-v0.1: 11,603 descendants (68 in the last 90 days)
-11. stabilityai/stable-diffusion-xl-base-1.0: 11,499 descendants (163 in the last 90 days)
-12. Qwen/Qwen3-4B-Instruct-2507: 11,072 descendants (1,463 in the last 90 days)
-13. Qwen/Qwen2.5-1.5B: 10,821 descendants (1,660 in the last 90 days)
-14. meta-llama/Meta-Llama-3-8B: 10,273 descendants (117 in the last 90 days)
+11. stabilityai/stable-diffusion-xl-base-1.0: 11,500 descendants (171 in the last 90 days)
+12. Qwen/Qwen3-4B-Instruct-2507: 11,077 descendants (1,464 in the last 90 days)
+13. Qwen/Qwen2.5-1.5B: 10,845 descendants (1,663 in the last 90 days)
+14. meta-llama/Meta-Llama-3-8B: 10,276 descendants (119 in the last 90 days)
 15. google/gemma-7b: 9,853 descendants (4 in the last 90 days)
-16. HuggingFaceTB/SmolLM2-360M: 9,749 descendants (1,744 in the last 90 days)
-17. Qwen/Qwen2.5-0.5B: 9,524 descendants (932 in the last 90 days)
-18. Qwen/Qwen3-8B-Base: 9,445 descendants (1,803 in the last 90 days)
-19. HuggingFaceTB/SmolLM2-360M-Instruct: 9,290 descendants (1,700 in the last 90 days)
-20. HuggingFaceTB/SmolVLM-500M-Instruct: 8,609 descendants (1,602 in the last 90 days)
-21. Qwen/Qwen2.5-3B: 8,525 descendants (1,325 in the last 90 days)
-22. HuggingFaceTB/SmolVLM2-500M-Video-Instruct: 8,508 descendants (1,582 in the last 90 days)
-23. lerobot/smolvla_base: 8,377 descendants (1,564 in the last 90 days)
-24. Qwen/Qwen3-8B: 7,877 descendants (1,434 in the last 90 days)
-25. meta-llama/Llama-3.2-3B-Instruct: 7,511 descendants (701 in the last 90 days)
+16. HuggingFaceTB/SmolLM2-360M: 9,787 descendants (1,751 in the last 90 days)
+17. Qwen/Qwen2.5-0.5B: 9,538 descendants (936 in the last 90 days)
+18. Qwen/Qwen3-8B-Base: 9,475 descendants (1,820 in the last 90 days)
+19. HuggingFaceTB/SmolLM2-360M-Instruct: 9,328 descendants (1,707 in the last 90 days)
+20. HuggingFaceTB/SmolVLM-500M-Instruct: 8,644 descendants (1,606 in the last 90 days)
+21. Qwen/Qwen2.5-3B: 8,550 descendants (1,336 in the last 90 days)
+22. HuggingFaceTB/SmolVLM2-500M-Video-Instruct: 8,543 descendants (1,586 in the last 90 days)
+23. lerobot/smolvla_base: 8,411 descendants (1,567 in the last 90 days)
+24. Qwen/Qwen3-8B: 7,902 descendants (1,447 in the last 90 days)
+25. meta-llama/Llama-3.2-3B-Instruct: 7,512 descendants (679 in the last 90 days)
 
 ## Families
 1. Qwen1.5: 71,021 descendants across 44 roots
-2. Qwen2.5: 69,714 descendants across 688 roots
-3. Qwen3: 54,128 descendants across 641 roots
-4. FLUX.1: 44,160 descendants across 16 roots
+2. Qwen2.5: 69,807 descendants across 688 roots
+3. Qwen3: 54,272 descendants across 641 roots
+4. FLUX.1: 44,162 descendants across 16 roots
 5. Gemma 1: 37,056 descendants across 184 roots
-6. Mistral: 36,458 descendants across 582 roots
-7. Llama 3.1: 28,159 descendants across 222 roots
-8. Llama 3: 24,165 descendants across 544 roots
-9. BERT: 23,184 descendants across 305 roots
-10. Llama 3.2: 21,063 descendants across 478 roots
-11. Qwen3.5: 19,138 descendants across 145 roots
-12. Gemma 3: 18,174 descendants across 140 roots
-13. Stable Diffusion: 17,863 descendants across 29 roots
-14. Whisper: 15,454 descendants across 199 roots
-15. DistilBERT: 15,208 descendants across 81 roots
+6. Mistral: 36,466 descendants across 582 roots
+7. Llama 3.1: 28,143 descendants across 222 roots
+8. Llama 3: 24,167 descendants across 544 roots
+9. BERT: 23,203 descendants across 305 roots
+10. Llama 3.2: 21,067 descendants across 478 roots
+11. Qwen3.5: 19,267 descendants across 144 roots
+12. Gemma 3: 18,177 descendants across 140 roots
+13. Stable Diffusion: 17,867 descendants across 29 roots
+14. Whisper: 15,475 descendants across 200 roots
+15. DistilBERT: 15,217 descendants across 81 roots
 
 ## Files
 - dist/leaderboard.json: top 500 models (all time, 90 days, finetune-only), families, orgs
