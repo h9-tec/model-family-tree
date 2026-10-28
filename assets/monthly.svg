@@ -73,7 +73,7 @@
 <text class="lbl" x="514.4" y="400" text-anchor="middle">26-01</text>
 <rect x="492.5" y="379.5" width="7.3" height="0.5" fill="#4C78A8"/>
 <rect x="499.8" y="289.2" width="7.3" height="90.8" fill="#F58518"/>
-<rect x="507.1" y="285.7" width="7.3" height="94.3" fill="#54A24B"/>
+<rect x="507.1" y="285.8" width="7.3" height="94.2" fill="#54A24B"/>
 <rect x="514.4" y="375.3" width="7.3" height="4.7" fill="#E45756"/>
 <rect x="521.7" y="377.1" width="7.3" height="2.9" fill="#72B7B2"/>
 <rect x="529.0" y="360.6" width="7.3" height="19.4" fill="#B279A2"/>
@@ -86,14 +86,14 @@
 <rect x="580.2" y="360.3" width="7.3" height="19.7" fill="#B279A2"/>
 <text class="lbl" x="616.7" y="400" text-anchor="middle">26-03</text>
 <rect x="594.8" y="379.9" width="7.3" height="0.1" fill="#4C78A8"/>
-<rect x="602.1" y="294.8" width="7.3" height="85.2" fill="#F58518"/>
-<rect x="609.4" y="232.0" width="7.3" height="148.0" fill="#54A24B"/>
+<rect x="602.1" y="294.7" width="7.3" height="85.3" fill="#F58518"/>
+<rect x="609.4" y="232.2" width="7.3" height="147.8" fill="#54A24B"/>
 <rect x="616.7" y="373.8" width="7.3" height="6.2" fill="#E45756"/>
 <rect x="624.0" y="378.6" width="7.3" height="1.4" fill="#72B7B2"/>
 <rect x="631.3" y="350.0" width="7.3" height="30.0" fill="#B279A2"/>
 <text class="lbl" x="667.8" y="400" text-anchor="middle">26-04</text>
 <rect x="645.9" y="379.7" width="7.3" height="0.3" fill="#4C78A8"/>
-<rect x="653.2" y="281.9" width="7.3" height="98.1" fill="#F58518"/>
+<rect x="653.2" y="282.1" width="7.3" height="97.9" fill="#F58518"/>
 <rect x="660.5" y="274.2" width="7.3" height="105.8" fill="#54A24B"/>
 <rect x="667.8" y="374.5" width="7.3" height="5.5" fill="#E45756"/>
 <rect x="675.1" y="377.5" width="7.3" height="2.5" fill="#72B7B2"/>
@@ -115,14 +115,14 @@
 <text class="lbl" x="821.1" y="400" text-anchor="middle">26-07</text>
 <rect x="799.2" y="379.7" width="7.3" height="0.3" fill="#4C78A8"/>
 <rect x="806.5" y="232.2" width="7.3" height="147.8" fill="#F58518"/>
-<rect x="813.8" y="273.3" width="7.3" height="106.7" fill="#54A24B"/>
+<rect x="813.8" y="273.7" width="7.3" height="106.3" fill="#54A24B"/>
 <rect x="821.1" y="375.9" width="7.3" height="4.1" fill="#E45756"/>
 <rect x="828.4" y="379.3" width="7.3" height="0.7" fill="#72B7B2"/>
 <rect x="835.7" y="366.9" width="7.3" height="13.1" fill="#B279A2"/>
 <text class="lbl" x="872.2" y="400" text-anchor="middle">26-08</text>
 <rect x="850.3" y="380.0" width="7.3" height="0.0" fill="#4C78A8"/>
 <rect x="857.6" y="291.3" width="7.3" height="88.7" fill="#F58518"/>
-<rect x="864.9" y="260.1" width="7.3" height="119.9" fill="#54A24B"/>
+<rect x="864.9" y="259.9" width="7.3" height="120.1" fill="#54A24B"/>
 <rect x="872.2" y="377.6" width="7.3" height="2.4" fill="#E45756"/>
 <rect x="879.5" y="379.4" width="7.3" height="0.6" fill="#72B7B2"/>
 <rect x="886.8" y="370.8" width="7.3" height="9.2" fill="#B279A2"/>
@@ -134,12 +134,12 @@
 <rect x="930.6" y="379.5" width="7.3" height="0.5" fill="#72B7B2"/>
 <rect x="937.9" y="366.7" width="7.3" height="13.3" fill="#B279A2"/>
 <text class="lbl" x="974.4" y="400" text-anchor="middle">26-10</text>
-<rect x="952.5" y="379.9" width="7.3" height="0.1" fill="#4C78A8"/>
-<rect x="959.8" y="304.2" width="7.3" height="75.8" fill="#F58518"/>
-<rect x="967.1" y="265.7" width="7.3" height="114.3" fill="#54A24B"/>
-<rect x="974.4" y="376.6" width="7.3" height="3.4" fill="#E45756"/>
+<rect x="952.5" y="379.8" width="7.3" height="0.2" fill="#4C78A8"/>
+<rect x="959.8" y="301.7" width="7.3" height="78.3" fill="#F58518"/>
+<rect x="967.1" y="261.2" width="7.3" height="118.8" fill="#54A24B"/>
+<rect x="974.4" y="376.5" width="7.3" height="3.5" fill="#E45756"/>
 <rect x="981.7" y="379.3" width="7.3" height="0.7" fill="#72B7B2"/>
-<rect x="989.0" y="371.6" width="7.3" height="8.4" fill="#B279A2"/>
+<rect x="989.0" y="371.2" width="7.3" height="8.8" fill="#B279A2"/>
 <rect x="1014" y="57" width="14" height="14" rx="3" fill="#4C78A8"/>
 <text class="lbl" x="1034" y="68">Qwen1.5</text>
 <rect x="1014" y="81" width="14" height="14" rx="3" fill="#F58518"/>
