@@ -64,7 +64,7 @@
 <rect x="419.5" y="373.5" width="7.3" height="6.5" fill="#72B7B2"/>
 <rect x="426.8" y="361.6" width="7.3" height="18.4" fill="#B279A2"/>
 <text class="lbl" x="463.3" y="400" text-anchor="middle">26-01</text>
-<rect x="441.4" y="289.9" width="7.3" height="90.1" fill="#4C78A8"/>
+<rect x="441.4" y="289.8" width="7.3" height="90.2" fill="#4C78A8"/>
 <rect x="448.7" y="379.5" width="7.3" height="0.5" fill="#F58518"/>
 <rect x="456.0" y="285.9" width="7.3" height="94.1" fill="#54A24B"/>
 <rect x="463.3" y="375.3" width="7.3" height="4.7" fill="#E45756"/>
@@ -73,7 +73,7 @@
 <text class="lbl" x="514.4" y="400" text-anchor="middle">26-02</text>
 <rect x="492.5" y="294.2" width="7.3" height="85.8" fill="#4C78A8"/>
 <rect x="499.8" y="379.9" width="7.3" height="0.1" fill="#F58518"/>
-<rect x="507.1" y="110.2" width="7.3" height="269.8" fill="#54A24B"/>
+<rect x="507.1" y="110.3" width="7.3" height="269.7" fill="#54A24B"/>
 <rect x="514.4" y="375.1" width="7.3" height="4.9" fill="#E45756"/>
 <rect x="521.7" y="377.8" width="7.3" height="2.2" fill="#72B7B2"/>
 <rect x="529.0" y="360.4" width="7.3" height="19.6" fill="#B279A2"/>
@@ -85,9 +85,9 @@
 <rect x="572.9" y="378.6" width="7.3" height="1.4" fill="#72B7B2"/>
 <rect x="580.2" y="350.1" width="7.3" height="29.9" fill="#B279A2"/>
 <text class="lbl" x="616.7" y="400" text-anchor="middle">26-04</text>
-<rect x="594.8" y="282.3" width="7.3" height="97.7" fill="#4C78A8"/>
+<rect x="594.8" y="282.4" width="7.3" height="97.6" fill="#4C78A8"/>
 <rect x="602.1" y="379.7" width="7.3" height="0.3" fill="#F58518"/>
-<rect x="609.4" y="274.1" width="7.3" height="105.9" fill="#54A24B"/>
+<rect x="609.4" y="271.4" width="7.3" height="108.6" fill="#54A24B"/>
 <rect x="616.7" y="374.5" width="7.3" height="5.5" fill="#E45756"/>
 <rect x="624.0" y="377.5" width="7.3" height="2.5" fill="#72B7B2"/>
 <rect x="631.3" y="362.2" width="7.3" height="17.8" fill="#B279A2"/>
@@ -101,7 +101,7 @@
 <text class="lbl" x="718.9" y="400" text-anchor="middle">26-06</text>
 <rect x="697.0" y="285.6" width="7.3" height="94.4" fill="#4C78A8"/>
 <rect x="704.3" y="379.9" width="7.3" height="0.1" fill="#F58518"/>
-<rect x="711.6" y="304.9" width="7.3" height="75.1" fill="#54A24B"/>
+<rect x="711.6" y="305.0" width="7.3" height="75.0" fill="#54A24B"/>
 <rect x="718.9" y="353.3" width="7.3" height="26.7" fill="#E45756"/>
 <rect x="726.2" y="378.9" width="7.3" height="1.1" fill="#72B7B2"/>
 <rect x="733.5" y="361.8" width="7.3" height="18.2" fill="#B279A2"/>
@@ -134,12 +134,12 @@
 <rect x="930.6" y="379.1" width="7.3" height="0.9" fill="#72B7B2"/>
 <rect x="937.9" y="369.5" width="7.3" height="10.5" fill="#B279A2"/>
 <text class="lbl" x="974.4" y="400" text-anchor="middle">26-11</text>
-<rect x="952.5" y="346.1" width="7.3" height="33.9" fill="#4C78A8"/>
+<rect x="952.5" y="341.3" width="7.3" height="38.7" fill="#4C78A8"/>
 <rect x="959.8" y="380.0" width="7.3" height="0.0" fill="#F58518"/>
-<rect x="967.1" y="337.8" width="7.3" height="42.2" fill="#54A24B"/>
+<rect x="967.1" y="333.6" width="7.3" height="46.4" fill="#54A24B"/>
 <rect x="974.4" y="379.3" width="7.3" height="0.7" fill="#E45756"/>
-<rect x="981.7" y="379.8" width="7.3" height="0.2" fill="#72B7B2"/>
-<rect x="989.0" y="376.4" width="7.3" height="3.6" fill="#B279A2"/>
+<rect x="981.7" y="379.7" width="7.3" height="0.3" fill="#72B7B2"/>
+<rect x="989.0" y="375.5" width="7.3" height="4.5" fill="#B279A2"/>
 <rect x="1014" y="57" width="14" height="14" rx="3" fill="#4C78A8"/>
 <text class="lbl" x="1034" y="68">Qwen2.5</text>
 <rect x="1014" y="81" width="14" height="14" rx="3" fill="#F58518"/>
