@@ -2,23 +2,23 @@
 
 <a href="https://h9-tec.github.io/model-family-tree/galaxy.html"><img src="assets/galaxy.jpg" alt="The Model Galaxy: every Hugging Face model with an ancestor or a descendant, as one zoomable map. Families are clusters, base models are stars, derivatives are the dots around them." width="100%"/></a>
 
-**[Fly through the Model Galaxy →](https://h9-tec.github.io/model-family-tree/galaxy.html)** · 994,591 models in one zoomable WebGL map · **[Explorer →](https://h9-tec.github.io/model-family-tree/)** · search any model, walk its pedigree, share a link.
+**[Fly through the Model Galaxy →](https://h9-tec.github.io/model-family-tree/galaxy.html)** · 997,369 models in one zoomable WebGL map · **[Explorer →](https://h9-tec.github.io/model-family-tree/)** · search any model, walk its pedigree, share a link.
 
 # Open Model Family Tree
 
 **Every model on the Hugging Face Hub, its ancestry, and a leaderboard of the base models the ecosystem actually builds on. Rebuilt nightly.**
 
-![Models](https://img.shields.io/badge/models-3271k-0A7E8C)
-![Links](https://img.shields.io/badge/parent%20links-980k-0A7E8C)
-![Updated](https://img.shields.io/badge/updated-2026--11--27-555)
+![Models](https://img.shields.io/badge/models-3273k-0A7E8C)
+![Links](https://img.shields.io/badge/parent%20links-982k-0A7E8C)
+![Updated](https://img.shields.io/badge/updated-2026--11--28-555)
 [![Stars](https://img.shields.io/github/stars/h9-tec/model-family-tree?style=flat)](https://github.com/h9-tec/model-family-tree/stargazers)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
 </div>
 
-**3,271,572** models · **947,417** declare a base model (29%) · **980,934** parent links · **94,309** models have descendants · **47,136** roots in **25,309** families
+**3,273,553** models · **949,917** declare a base model (29%) · **982,986** parent links · **94,649** models have descendants · **47,413** roots in **25,396** families
 
-The most built-on model on the Hub is **[black-forest-labs/FLUX.1-dev](https://huggingface.co/black-forest-labs/FLUX.1-dev)** with **43,720** descendants. In the last 90 days it is **[Qwen/Qwen3.8-27B](https://huggingface.co/Qwen/Qwen3.8-27B)** with **5,106** new ones. The biggest family is **Qwen2.5** (72,875).
+The most built-on model on the Hub is **[black-forest-labs/FLUX.1-dev](https://huggingface.co/black-forest-labs/FLUX.1-dev)** with **43,693** descendants. In the last 90 days it is **[Qwen/Qwen3.8-27B](https://huggingface.co/Qwen/Qwen3.8-27B)** with **5,246** new ones. The biggest family is **Qwen2.5** (72,879).
 
 ## Install into your agent
 
@@ -44,9 +44,9 @@ Tools: `lineage(id)`, `children(id)`, `leaderboard(kind)`, `family(name)`, `sear
 
 | | |
 |---|---|
-| **[Galaxy](https://h9-tec.github.io/model-family-tree/galaxy.html)** | Every model that has an ancestor or a descendant (994,591 points) in one WebGL map. Families are circle-packed clusters, base models are stars, each derivative is a dot colored by relation and sized by downloads. Scroll to zoom from the whole Hub down to one model, click any dot. |
+| **[Galaxy](https://h9-tec.github.io/model-family-tree/galaxy.html)** | Every model that has an ancestor or a descendant (997,369 points) in one WebGL map. Families are circle-packed clusters, base models are stars, each derivative is a dot colored by relation and sized by downloads. Scroll to zoom from the whole Hub down to one model, click any dot. |
 | **[Explorer](https://h9-tec.github.io/model-family-tree/)** | Type any model id. Its pedigree is drawn as a radial tree: every ancestor path fans out to the left (merges show all parents), the most downloaded descendants to the right, unfoldable level by level, live from the Hub. |
-| **[Leaderboard](https://h9-tec.github.io/model-family-tree/#board:all)** | All 94,309 models with descendants, sortable and filterable, plus the curated views below. |
+| **[Leaderboard](https://h9-tec.github.io/model-family-tree/#board:all)** | All 94,649 models with descendants, sortable and filterable, plus the curated views below. |
 
 <a href="assets/families.svg"><img src="assets/families.svg" alt="Cumulative descendants per model family over the last 24 months" width="100%"/></a>
 
@@ -56,31 +56,31 @@ Unique descendants of every kind: finetunes, adapters (LoRA), quantizations and 
 
 | # | Model | Descendants | Direct | Last 90d | Finetune / adapter / quantized / merge | Family |
 |---:|---|---:|---:|---:|---|---|
-| 1 | [black-forest-labs/FLUX.1-dev](https://huggingface.co/black-forest-labs/FLUX.1-dev) | 43,720 | 43,442 | 214 | 695 / 42,871 / 138 / 16 | FLUX.1 |
+| 1 | [black-forest-labs/FLUX.1-dev](https://huggingface.co/black-forest-labs/FLUX.1-dev) | 43,693 | 43,415 | 214 | 695 / 42,844 / 138 / 16 | FLUX.1 |
 | 2 | [Qwen/Qwen1.5-0.5B](https://huggingface.co/Qwen/Qwen1.5-0.5B) | 32,562 | 32,534 | 0 | 40 / 32,475 / 45 / 2 | Qwen1.5 |
 | 3 | [Qwen/Qwen1.5-1.8B](https://huggingface.co/Qwen/Qwen1.5-1.8B) | 30,658 | 30,628 | 2 | 36 / 30,591 / 29 / 2 | Qwen1.5 |
-| 4 | [google/gemma-2b](https://huggingface.co/google/gemma-2b) | 24,119 | 24,039 | 7 | 312 / 23,706 / 90 / 11 | Gemma 1 |
-| 5 | [Qwen/Qwen2.5-7B](https://huggingface.co/Qwen/Qwen2.5-7B) | 23,476 | 2,014 | 2,479 | 12,287 / 6,972 / 3,623 / 594 | Qwen2.5 |
-| 6 | [meta-llama/Llama-3.1-8B](https://huggingface.co/meta-llama/Llama-3.1-8B) | 21,885 | 3,229 | 1,610 | 9,602 / 6,238 / 5,194 / 851 | Llama 3.1 |
-| 7 | [meta-llama/Llama-3.1-8B-Instruct](https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct) | 15,465 | 7,500 | 1,253 | 6,941 / 4,160 / 3,645 / 719 | Llama 3.1 |
-| 8 | [Qwen/Qwen2.5-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-7B-Instruct) | 15,181 | 6,926 | 1,851 | 8,838 / 4,087 / 1,844 / 412 | Qwen2.5 |
-| 9 | [distilbert/distilbert-base-uncased](https://huggingface.co/distilbert/distilbert-base-uncased) | 13,827 | 13,445 | 726 | 13,261 / 405 / 160 / 1 | DistilBERT |
-| 10 | [Qwen/Qwen2.5-1.5B](https://huggingface.co/Qwen/Qwen2.5-1.5B) | 11,707 | 1,099 | 1,969 | 5,317 / 4,370 / 1,855 / 165 | Qwen2.5 |
-| 11 | [mistralai/Mistral-7B-v0.1](https://huggingface.co/mistralai/Mistral-7B-v0.1) | 11,647 | 4,018 | 88 | 3,009 / 5,186 / 2,072 / 1,365 | Mistral |
-| 12 | [stabilityai/stable-diffusion-xl-base-1.0](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0) | 11,622 | 11,136 | 266 | 1,430 / 10,082 / 56 / 54 | Stable Diffusion |
-| 13 | [Qwen/Qwen3-4B-Instruct-2507](https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507) | 11,484 | 9,092 | 1,619 | 3,657 / 6,574 / 1,160 / 93 | Qwen3 |
-| 14 | [meta-llama/Meta-Llama-3-8B](https://huggingface.co/meta-llama/Meta-Llama-3-8B) | 10,325 | 1,725 | 97 | 4,250 / 2,071 / 3,015 / 989 | Llama 3 |
-| 15 | [Qwen/Qwen3-8B-Base](https://huggingface.co/Qwen/Qwen3-8B-Base) | 10,256 | 936 | 1,941 | 5,106 / 3,163 / 1,913 / 73 | Qwen3 |
-| 16 | [HuggingFaceTB/SmolLM2-360M](https://huggingface.co/HuggingFaceTB/SmolLM2-360M) | 10,224 | 208 | 1,531 | 9,184 / 665 / 370 / 5 | SmolLM2 |
-| 17 | [Qwen/Qwen2.5-0.5B](https://huggingface.co/Qwen/Qwen2.5-0.5B) | 10,186 | 1,486 | 1,258 | 6,222 / 2,492 / 1,413 / 59 | Qwen2.5 |
+| 4 | [google/gemma-2b](https://huggingface.co/google/gemma-2b) | 24,120 | 24,040 | 8 | 313 / 23,706 / 90 / 11 | Gemma 1 |
+| 5 | [Qwen/Qwen2.5-7B](https://huggingface.co/Qwen/Qwen2.5-7B) | 23,347 | 2,003 | 2,529 | 12,294 / 7,034 / 3,488 / 531 | Qwen2.5 |
+| 6 | [meta-llama/Llama-3.1-8B](https://huggingface.co/meta-llama/Llama-3.1-8B) | 21,839 | 3,227 | 1,625 | 9,614 / 6,253 / 5,141 / 831 | Llama 3.1 |
+| 7 | [meta-llama/Llama-3.1-8B-Instruct](https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct) | 15,416 | 7,513 | 1,272 | 6,951 / 4,174 / 3,593 / 698 | Llama 3.1 |
+| 8 | [Qwen/Qwen2.5-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-7B-Instruct) | 15,015 | 6,983 | 1,898 | 8,836 / 4,148 / 1,690 / 341 | Qwen2.5 |
+| 9 | [distilbert/distilbert-base-uncased](https://huggingface.co/distilbert/distilbert-base-uncased) | 13,850 | 13,468 | 745 | 13,280 / 406 / 163 / 1 | DistilBERT |
+| 10 | [Qwen/Qwen2.5-1.5B](https://huggingface.co/Qwen/Qwen2.5-1.5B) | 11,730 | 1,101 | 1,987 | 5,321 / 4,389 / 1,857 / 163 | Qwen2.5 |
+| 11 | [mistralai/Mistral-7B-v0.1](https://huggingface.co/mistralai/Mistral-7B-v0.1) | 11,648 | 4,018 | 89 | 3,010 / 5,186 / 2,072 / 1,365 | Mistral |
+| 12 | [stabilityai/stable-diffusion-xl-base-1.0](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0) | 11,624 | 11,137 | 269 | 1,431 / 10,083 / 56 / 54 | Stable Diffusion |
+| 13 | [Qwen/Qwen3-4B-Instruct-2507](https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507) | 11,536 | 9,150 | 1,581 | 3,706 / 6,575 / 1,164 / 91 | Qwen3 |
+| 14 | [Qwen/Qwen3-8B-Base](https://huggingface.co/Qwen/Qwen3-8B-Base) | 10,297 | 937 | 1,969 | 5,132 / 3,176 / 1,915 / 73 | Qwen3 |
+| 15 | [HuggingFaceTB/SmolLM2-360M](https://huggingface.co/HuggingFaceTB/SmolLM2-360M) | 10,267 | 210 | 1,558 | 9,218 / 672 / 372 / 5 | SmolLM2 |
+| 16 | [meta-llama/Meta-Llama-3-8B](https://huggingface.co/meta-llama/Meta-Llama-3-8B) | 10,264 | 1,726 | 97 | 4,245 / 2,072 / 2,974 / 973 | Llama 3 |
+| 17 | [Qwen/Qwen2.5-0.5B](https://huggingface.co/Qwen/Qwen2.5-0.5B) | 10,220 | 1,488 | 1,288 | 6,231 / 2,507 / 1,423 / 59 | Qwen2.5 |
 | 18 | [google/gemma-7b](https://huggingface.co/google/gemma-7b) | 9,862 | 9,589 | 9 | 460 / 9,296 / 98 / 8 | Gemma 1 |
-| 19 | [HuggingFaceTB/SmolLM2-360M-Instruct](https://huggingface.co/HuggingFaceTB/SmolLM2-360M-Instruct) | 9,747 | 440 | 1,485 | 9,014 / 432 / 296 / 5 | SmolLM2 |
-| 20 | [HuggingFaceTB/SmolVLM-500M-Instruct](https://huggingface.co/HuggingFaceTB/SmolVLM-500M-Instruct) | 8,961 | 93 | 1,303 | 8,726 / 167 / 68 / 0 | SmolLM2 |
-| 21 | [Qwen/Qwen2.5-3B](https://huggingface.co/Qwen/Qwen2.5-3B) | 8,928 | 1,154 | 1,154 | 3,985 / 3,251 / 1,606 / 86 | Qwen2.5 |
-| 22 | [HuggingFaceTB/SmolVLM2-500M-Video-Instruct](https://huggingface.co/HuggingFaceTB/SmolVLM2-500M-Video-Instruct) | 8,859 | 143 | 1,287 | 8,692 / 136 / 31 / 0 | SmolLM2 |
-| 23 | [lerobot/smolvla_base](https://huggingface.co/lerobot/smolvla_base) | 8,712 | 8,643 | 1,265 | 8,587 / 118 / 7 / 0 | SmolLM2 |
-| 24 | [Qwen/Qwen3-8B](https://huggingface.co/Qwen/Qwen3-8B) | 8,462 | 5,491 | 1,469 | 3,884 / 2,924 / 1,584 / 69 | Qwen3 |
-| 25 | [google-bert/bert-base-uncased](https://huggingface.co/google-bert/bert-base-uncased) | 7,712 | 7,467 | 453 | 7,471 / 148 / 86 / 7 | BERT |
+| 19 | [HuggingFaceTB/SmolLM2-360M-Instruct](https://huggingface.co/HuggingFaceTB/SmolLM2-360M-Instruct) | 9,788 | 441 | 1,516 | 9,048 / 437 / 298 / 5 | SmolLM2 |
+| 20 | [HuggingFaceTB/SmolVLM-500M-Instruct](https://huggingface.co/HuggingFaceTB/SmolVLM-500M-Instruct) | 9,001 | 93 | 1,334 | 8,761 / 172 / 68 / 0 | SmolLM2 |
+| 21 | [HuggingFaceTB/SmolVLM2-500M-Video-Instruct](https://huggingface.co/HuggingFaceTB/SmolVLM2-500M-Video-Instruct) | 8,899 | 143 | 1,318 | 8,727 / 141 / 31 / 0 | SmolLM2 |
+| 22 | [Qwen/Qwen2.5-3B](https://huggingface.co/Qwen/Qwen2.5-3B) | 8,863 | 1,151 | 1,173 | 3,996 / 3,256 / 1,553 / 58 | Qwen2.5 |
+| 23 | [lerobot/smolvla_base](https://huggingface.co/lerobot/smolvla_base) | 8,752 | 8,664 | 1,296 | 8,622 / 123 / 7 / 0 | SmolLM2 |
+| 24 | [Qwen/Qwen3-8B](https://huggingface.co/Qwen/Qwen3-8B) | 8,482 | 5,504 | 1,479 | 3,890 / 2,935 / 1,587 / 69 | Qwen3 |
+| 25 | [Qwen/Qwen3.5-9B-Base](https://huggingface.co/Qwen/Qwen3.5-9B-Base) | 7,764 | 830 | 3,801 | 3,132 / 1,687 / 2,810 / 135 | Qwen3.5 |
 
 ## Hot right now: new descendants in the last 90 days
 
@@ -88,31 +88,31 @@ Unique descendants of every kind: finetunes, adapters (LoRA), quantizations and 
 
 | # | Model | Descendants | Direct | Last 90d | Finetune / adapter / quantized / merge | Family |
 |---:|---|---:|---:|---:|---|---|
-| 1 | [Qwen/Qwen3.8-27B](https://huggingface.co/Qwen/Qwen3.8-27B) | 6,962 | 3,405 | 5,106 | 1,618 / 613 / 4,659 / 72 | Qwen3.8 |
-| 2 | [Qwen/Qwen3.5-4B-Base](https://huggingface.co/Qwen/Qwen3.5-4B-Base) | 6,815 | 603 | 4,017 | 2,790 / 1,859 / 2,098 / 68 | Qwen3.5 |
-| 3 | [Qwen/Qwen3.5-9B-Base](https://huggingface.co/Qwen/Qwen3.5-9B-Base) | 7,670 | 826 | 3,728 | 3,078 / 1,675 / 2,788 / 129 | Qwen3.5 |
-| 4 | [Qwen/Qwen3.5-4B](https://huggingface.co/Qwen/Qwen3.5-4B) | 5,970 | 3,620 | 3,459 | 2,313 / 1,664 / 1,930 / 63 | Qwen3.5 |
-| 5 | [Qwen/Qwen3.5-9B](https://huggingface.co/Qwen/Qwen3.5-9B) | 6,449 | 3,501 | 3,296 | 2,241 / 1,552 / 2,530 / 126 | Qwen3.5 |
-| 6 | [Qwen/Qwen2.5-7B](https://huggingface.co/Qwen/Qwen2.5-7B) | 23,476 | 2,014 | 2,479 | 12,287 / 6,972 / 3,623 / 594 | Qwen2.5 |
-| 7 | [Qwen/Qwen3.5-0.8B-Base](https://huggingface.co/Qwen/Qwen3.5-0.8B-Base) | 3,964 | 331 | 2,474 | 1,685 / 1,082 / 1,184 / 13 | Qwen3.5 |
-| 8 | [Qwen/Qwen3.5-0.8B](https://huggingface.co/Qwen/Qwen3.5-0.8B) | 3,431 | 2,281 | 2,141 | 1,447 / 980 / 993 / 11 | Qwen3.5 |
-| 9 | [Qwen/Qwen2.5-1.5B](https://huggingface.co/Qwen/Qwen2.5-1.5B) | 11,707 | 1,099 | 1,969 | 5,317 / 4,370 / 1,855 / 165 | Qwen2.5 |
-| 10 | [Qwen/Qwen3-8B-Base](https://huggingface.co/Qwen/Qwen3-8B-Base) | 10,256 | 936 | 1,941 | 5,106 / 3,163 / 1,913 / 73 | Qwen3 |
-| 11 | [Qwen/Qwen2.5-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-7B-Instruct) | 15,181 | 6,926 | 1,851 | 8,838 / 4,087 / 1,844 / 412 | Qwen2.5 |
-| 12 | [Qwen/Qwen3-0.6B-Base](https://huggingface.co/Qwen/Qwen3-0.6B-Base) | 7,224 | 1,014 | 1,746 | 4,128 / 1,159 / 1,910 / 27 | Qwen3 |
-| 13 | [Qwen/Qwen3-4B-Instruct-2507](https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507) | 11,484 | 9,092 | 1,619 | 3,657 / 6,574 / 1,160 / 93 | Qwen3 |
-| 14 | [meta-llama/Llama-3.1-8B](https://huggingface.co/meta-llama/Llama-3.1-8B) | 21,885 | 3,229 | 1,610 | 9,602 / 6,238 / 5,194 / 851 | Llama 3.1 |
-| 15 | [HuggingFaceTB/SmolLM2-360M](https://huggingface.co/HuggingFaceTB/SmolLM2-360M) | 10,224 | 208 | 1,531 | 9,184 / 665 / 370 / 5 | SmolLM2 |
-| 16 | [HuggingFaceTB/SmolLM2-360M-Instruct](https://huggingface.co/HuggingFaceTB/SmolLM2-360M-Instruct) | 9,747 | 440 | 1,485 | 9,014 / 432 / 296 / 5 | SmolLM2 |
-| 17 | [Qwen/Qwen3.5-2B-Base](https://huggingface.co/Qwen/Qwen3.5-2B-Base) | 2,862 | 225 | 1,479 | 1,251 / 671 / 932 / 8 | Qwen3.5 |
-| 18 | [Qwen/Qwen3-8B](https://huggingface.co/Qwen/Qwen3-8B) | 8,462 | 5,491 | 1,469 | 3,884 / 2,924 / 1,584 / 69 | Qwen3 |
-| 19 | [Qwen/Qwen3-1.7B-Base](https://huggingface.co/Qwen/Qwen3-1.7B-Base) | 5,640 | 696 | 1,460 | 2,977 / 1,318 / 1,324 / 21 | Qwen3 |
-| 20 | [Qwen/Qwen3.8-Flash-Next](https://huggingface.co/Qwen/Qwen3.8-Flash-Next) | 1,520 | 898 | 1,366 | 245 / 15 / 1,209 / 51 | Qwen3.8 |
-| 21 | [Qwen/Qwen3-4B-Base](https://huggingface.co/Qwen/Qwen3-4B-Base) | 7,210 | 784 | 1,327 | 3,641 / 1,762 / 1,714 / 93 | Qwen3 |
-| 22 | [HuggingFaceTB/SmolVLM-500M-Instruct](https://huggingface.co/HuggingFaceTB/SmolVLM-500M-Instruct) | 8,961 | 93 | 1,303 | 8,726 / 167 / 68 / 0 | SmolLM2 |
-| 23 | [Qwen/Qwen3.5-2B](https://huggingface.co/Qwen/Qwen3.5-2B) | 2,533 | 1,540 | 1,291 | 1,091 / 602 / 833 / 7 | Qwen3.5 |
-| 24 | [HuggingFaceTB/SmolVLM2-500M-Video-Instruct](https://huggingface.co/HuggingFaceTB/SmolVLM2-500M-Video-Instruct) | 8,859 | 143 | 1,287 | 8,692 / 136 / 31 / 0 | SmolLM2 |
-| 25 | [Qwen/Qwen2.5-1.5B-Instruct](https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct) | 6,445 | 4,469 | 1,281 | 2,958 / 2,433 / 936 / 118 | Qwen2.5 |
+| 1 | [Qwen/Qwen3.8-27B](https://huggingface.co/Qwen/Qwen3.8-27B) | 7,139 | 3,485 | 5,246 | 1,685 / 624 / 4,750 / 80 | Qwen3.8 |
+| 2 | [Qwen/Qwen3.5-4B-Base](https://huggingface.co/Qwen/Qwen3.5-4B-Base) | 6,943 | 612 | 4,137 | 2,875 / 1,886 / 2,116 / 66 | Qwen3.5 |
+| 3 | [Qwen/Qwen3.5-9B-Base](https://huggingface.co/Qwen/Qwen3.5-9B-Base) | 7,764 | 830 | 3,801 | 3,132 / 1,687 / 2,810 / 135 | Qwen3.5 |
+| 4 | [Qwen/Qwen3.5-4B](https://huggingface.co/Qwen/Qwen3.5-4B) | 6,077 | 3,690 | 3,558 | 2,377 / 1,691 / 1,948 / 61 | Qwen3.5 |
+| 5 | [Qwen/Qwen3.5-9B](https://huggingface.co/Qwen/Qwen3.5-9B) | 6,535 | 3,544 | 3,361 | 2,288 / 1,564 / 2,551 / 132 | Qwen3.5 |
+| 6 | [Qwen/Qwen3.5-0.8B-Base](https://huggingface.co/Qwen/Qwen3.5-0.8B-Base) | 4,054 | 338 | 2,555 | 1,733 / 1,102 / 1,206 / 13 | Qwen3.5 |
+| 7 | [Qwen/Qwen2.5-7B](https://huggingface.co/Qwen/Qwen2.5-7B) | 23,347 | 2,003 | 2,529 | 12,294 / 7,034 / 3,488 / 531 | Qwen2.5 |
+| 8 | [Qwen/Qwen3.5-0.8B](https://huggingface.co/Qwen/Qwen3.5-0.8B) | 3,506 | 2,336 | 2,208 | 1,486 / 1,000 / 1,009 / 11 | Qwen3.5 |
+| 9 | [Qwen/Qwen2.5-1.5B](https://huggingface.co/Qwen/Qwen2.5-1.5B) | 11,730 | 1,101 | 1,987 | 5,321 / 4,389 / 1,857 / 163 | Qwen2.5 |
+| 10 | [Qwen/Qwen3-8B-Base](https://huggingface.co/Qwen/Qwen3-8B-Base) | 10,297 | 937 | 1,969 | 5,132 / 3,176 / 1,915 / 73 | Qwen3 |
+| 11 | [Qwen/Qwen2.5-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-7B-Instruct) | 15,015 | 6,983 | 1,898 | 8,836 / 4,148 / 1,690 / 341 | Qwen2.5 |
+| 12 | [Qwen/Qwen3-0.6B-Base](https://huggingface.co/Qwen/Qwen3-0.6B-Base) | 7,306 | 1,026 | 1,797 | 4,159 / 1,167 / 1,923 / 57 | Qwen3 |
+| 13 | [meta-llama/Llama-3.1-8B](https://huggingface.co/meta-llama/Llama-3.1-8B) | 21,839 | 3,227 | 1,625 | 9,614 / 6,253 / 5,141 / 831 | Llama 3.1 |
+| 14 | [Qwen/Qwen3-4B-Instruct-2507](https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507) | 11,536 | 9,150 | 1,581 | 3,706 / 6,575 / 1,164 / 91 | Qwen3 |
+| 15 | [HuggingFaceTB/SmolLM2-360M](https://huggingface.co/HuggingFaceTB/SmolLM2-360M) | 10,267 | 210 | 1,558 | 9,218 / 672 / 372 / 5 | SmolLM2 |
+| 16 | [HuggingFaceTB/SmolLM2-360M-Instruct](https://huggingface.co/HuggingFaceTB/SmolLM2-360M-Instruct) | 9,788 | 441 | 1,516 | 9,048 / 437 / 298 / 5 | SmolLM2 |
+| 17 | [Qwen/Qwen3.5-2B-Base](https://huggingface.co/Qwen/Qwen3.5-2B-Base) | 2,902 | 227 | 1,514 | 1,262 / 682 / 949 / 9 | Qwen3.5 |
+| 18 | [Qwen/Qwen3-1.7B-Base](https://huggingface.co/Qwen/Qwen3-1.7B-Base) | 5,656 | 696 | 1,489 | 2,971 / 1,341 / 1,325 / 19 | Qwen3 |
+| 19 | [Qwen/Qwen3-8B](https://huggingface.co/Qwen/Qwen3-8B) | 8,482 | 5,504 | 1,479 | 3,890 / 2,935 / 1,587 / 69 | Qwen3 |
+| 20 | [Qwen/Qwen3.8-Flash-Next](https://huggingface.co/Qwen/Qwen3.8-Flash-Next) | 1,547 | 910 | 1,357 | 253 / 15 / 1,228 / 51 | Qwen3.8 |
+| 21 | [Qwen/Qwen3-4B-Base](https://huggingface.co/Qwen/Qwen3-4B-Base) | 7,203 | 785 | 1,342 | 3,653 / 1,772 / 1,695 / 83 | Qwen3 |
+| 22 | [HuggingFaceTB/SmolVLM-500M-Instruct](https://huggingface.co/HuggingFaceTB/SmolVLM-500M-Instruct) | 9,001 | 93 | 1,334 | 8,761 / 172 / 68 / 0 | SmolLM2 |
+| 23 | [Qwen/Qwen3.5-2B](https://huggingface.co/Qwen/Qwen3.5-2B) | 2,570 | 1,570 | 1,324 | 1,099 / 613 / 850 / 8 | Qwen3.5 |
+| 24 | [HuggingFaceTB/SmolVLM2-500M-Video-Instruct](https://huggingface.co/HuggingFaceTB/SmolVLM2-500M-Video-Instruct) | 8,899 | 143 | 1,318 | 8,727 / 141 / 31 / 0 | SmolLM2 |
+| 25 | [Qwen/Qwen2.5-1.5B-Instruct](https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct) | 6,462 | 4,486 | 1,299 | 2,963 / 2,446 / 937 / 116 | Qwen2.5 |
 
 ## Finetunes only
 
@@ -120,31 +120,31 @@ Adapters and quantizations inflate the all-time table (tens of thousands of auto
 
 | # | Model | Descendants | Direct | Last 90d | Finetune / adapter / quantized / merge | Family |
 |---:|---|---:|---:|---:|---|---|
-| 1 | [distilbert/distilbert-base-uncased](https://huggingface.co/distilbert/distilbert-base-uncased) | 13,827 | 13,445 | 726 | 13,261 / 405 / 160 / 1 | DistilBERT |
-| 2 | [Qwen/Qwen2.5-7B](https://huggingface.co/Qwen/Qwen2.5-7B) | 23,476 | 2,014 | 2,479 | 12,287 / 6,972 / 3,623 / 594 | Qwen2.5 |
-| 3 | [meta-llama/Llama-3.1-8B](https://huggingface.co/meta-llama/Llama-3.1-8B) | 21,885 | 3,229 | 1,610 | 9,602 / 6,238 / 5,194 / 851 | Llama 3.1 |
-| 4 | [HuggingFaceTB/SmolLM2-360M](https://huggingface.co/HuggingFaceTB/SmolLM2-360M) | 10,224 | 208 | 1,531 | 9,184 / 665 / 370 / 5 | SmolLM2 |
-| 5 | [HuggingFaceTB/SmolLM2-360M-Instruct](https://huggingface.co/HuggingFaceTB/SmolLM2-360M-Instruct) | 9,747 | 440 | 1,485 | 9,014 / 432 / 296 / 5 | SmolLM2 |
-| 6 | [Qwen/Qwen2.5-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-7B-Instruct) | 15,181 | 6,926 | 1,851 | 8,838 / 4,087 / 1,844 / 412 | Qwen2.5 |
-| 7 | [HuggingFaceTB/SmolVLM-500M-Instruct](https://huggingface.co/HuggingFaceTB/SmolVLM-500M-Instruct) | 8,961 | 93 | 1,303 | 8,726 / 167 / 68 / 0 | SmolLM2 |
-| 8 | [HuggingFaceTB/SmolVLM2-500M-Video-Instruct](https://huggingface.co/HuggingFaceTB/SmolVLM2-500M-Video-Instruct) | 8,859 | 143 | 1,287 | 8,692 / 136 / 31 / 0 | SmolLM2 |
-| 9 | [lerobot/smolvla_base](https://huggingface.co/lerobot/smolvla_base) | 8,712 | 8,643 | 1,265 | 8,587 / 118 / 7 / 0 | SmolLM2 |
-| 10 | [google-bert/bert-base-uncased](https://huggingface.co/google-bert/bert-base-uncased) | 7,712 | 7,467 | 453 | 7,471 / 148 / 86 / 7 | BERT |
-| 11 | [meta-llama/Llama-3.1-8B-Instruct](https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct) | 15,465 | 7,500 | 1,253 | 6,941 / 4,160 / 3,645 / 719 | Llama 3.1 |
-| 12 | [Qwen/Qwen2.5-0.5B](https://huggingface.co/Qwen/Qwen2.5-0.5B) | 10,186 | 1,486 | 1,258 | 6,222 / 2,492 / 1,413 / 59 | Qwen2.5 |
-| 13 | [Qwen/Qwen2.5-1.5B](https://huggingface.co/Qwen/Qwen2.5-1.5B) | 11,707 | 1,099 | 1,969 | 5,317 / 4,370 / 1,855 / 165 | Qwen2.5 |
-| 14 | [Qwen/Qwen3-8B-Base](https://huggingface.co/Qwen/Qwen3-8B-Base) | 10,256 | 936 | 1,941 | 5,106 / 3,163 / 1,913 / 73 | Qwen3 |
-| 15 | [unsloth/Qwen2.5-7B-Instruct](https://huggingface.co/unsloth/Qwen2.5-7B-Instruct) | 5,720 | 5,669 | 699 | 4,909 / 772 / 37 / 2 | Qwen2.5 |
-| 16 | [FacebookAI/xlm-roberta-base](https://huggingface.co/FacebookAI/xlm-roberta-base) | 4,834 | 4,467 | 197 | 4,624 / 79 / 130 / 0 | XLM-RoBERTa |
-| 17 | [google/gemma-3-4b-pt](https://huggingface.co/google/gemma-3-4b-pt) | 6,916 | 406 | 551 | 4,584 / 1,082 / 1,234 / 16 | Gemma 3 |
-| 18 | [meta-llama/Meta-Llama-3-8B](https://huggingface.co/meta-llama/Meta-Llama-3-8B) | 10,325 | 1,725 | 97 | 4,250 / 2,071 / 3,015 / 989 | Llama 3 |
-| 19 | [openai/whisper-small](https://huggingface.co/openai/whisper-small) | 4,856 | 4,499 | 344 | 4,139 / 365 / 352 / 0 | Whisper |
-| 20 | [Qwen/Qwen3-0.6B-Base](https://huggingface.co/Qwen/Qwen3-0.6B-Base) | 7,224 | 1,014 | 1,746 | 4,128 / 1,159 / 1,910 / 27 | Qwen3 |
-| 21 | [aubmindlab/bert-base-arabertv02](https://huggingface.co/aubmindlab/bert-base-arabertv02) | 4,119 | 4,062 | 16 | 4,107 / 5 / 7 / 0 | BERT |
-| 22 | [Qwen/Qwen2.5-3B](https://huggingface.co/Qwen/Qwen2.5-3B) | 8,928 | 1,154 | 1,154 | 3,985 / 3,251 / 1,606 / 86 | Qwen2.5 |
-| 23 | [meta-llama/Llama-3.2-3B-Instruct](https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct) | 7,638 | 3,549 | 462 | 3,976 / 1,622 / 1,887 / 153 | Llama 3.2 |
-| 24 | [Qwen/Qwen3-8B](https://huggingface.co/Qwen/Qwen3-8B) | 8,462 | 5,491 | 1,469 | 3,884 / 2,924 / 1,584 / 69 | Qwen3 |
-| 25 | [Qwen/Qwen3-4B-Instruct-2507](https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507) | 11,484 | 9,092 | 1,619 | 3,657 / 6,574 / 1,160 / 93 | Qwen3 |
+| 1 | [distilbert/distilbert-base-uncased](https://huggingface.co/distilbert/distilbert-base-uncased) | 13,850 | 13,468 | 745 | 13,280 / 406 / 163 / 1 | DistilBERT |
+| 2 | [Qwen/Qwen2.5-7B](https://huggingface.co/Qwen/Qwen2.5-7B) | 23,347 | 2,003 | 2,529 | 12,294 / 7,034 / 3,488 / 531 | Qwen2.5 |
+| 3 | [meta-llama/Llama-3.1-8B](https://huggingface.co/meta-llama/Llama-3.1-8B) | 21,839 | 3,227 | 1,625 | 9,614 / 6,253 / 5,141 / 831 | Llama 3.1 |
+| 4 | [HuggingFaceTB/SmolLM2-360M](https://huggingface.co/HuggingFaceTB/SmolLM2-360M) | 10,267 | 210 | 1,558 | 9,218 / 672 / 372 / 5 | SmolLM2 |
+| 5 | [HuggingFaceTB/SmolLM2-360M-Instruct](https://huggingface.co/HuggingFaceTB/SmolLM2-360M-Instruct) | 9,788 | 441 | 1,516 | 9,048 / 437 / 298 / 5 | SmolLM2 |
+| 6 | [Qwen/Qwen2.5-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-7B-Instruct) | 15,015 | 6,983 | 1,898 | 8,836 / 4,148 / 1,690 / 341 | Qwen2.5 |
+| 7 | [HuggingFaceTB/SmolVLM-500M-Instruct](https://huggingface.co/HuggingFaceTB/SmolVLM-500M-Instruct) | 9,001 | 93 | 1,334 | 8,761 / 172 / 68 / 0 | SmolLM2 |
+| 8 | [HuggingFaceTB/SmolVLM2-500M-Video-Instruct](https://huggingface.co/HuggingFaceTB/SmolVLM2-500M-Video-Instruct) | 8,899 | 143 | 1,318 | 8,727 / 141 / 31 / 0 | SmolLM2 |
+| 9 | [lerobot/smolvla_base](https://huggingface.co/lerobot/smolvla_base) | 8,752 | 8,664 | 1,296 | 8,622 / 123 / 7 / 0 | SmolLM2 |
+| 10 | [google-bert/bert-base-uncased](https://huggingface.co/google-bert/bert-base-uncased) | 7,718 | 7,472 | 454 | 7,476 / 148 / 87 / 7 | BERT |
+| 11 | [meta-llama/Llama-3.1-8B-Instruct](https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct) | 15,416 | 7,513 | 1,272 | 6,951 / 4,174 / 3,593 / 698 | Llama 3.1 |
+| 12 | [Qwen/Qwen2.5-0.5B](https://huggingface.co/Qwen/Qwen2.5-0.5B) | 10,220 | 1,488 | 1,288 | 6,231 / 2,507 / 1,423 / 59 | Qwen2.5 |
+| 13 | [Qwen/Qwen2.5-1.5B](https://huggingface.co/Qwen/Qwen2.5-1.5B) | 11,730 | 1,101 | 1,987 | 5,321 / 4,389 / 1,857 / 163 | Qwen2.5 |
+| 14 | [Qwen/Qwen3-8B-Base](https://huggingface.co/Qwen/Qwen3-8B-Base) | 10,297 | 937 | 1,969 | 5,132 / 3,176 / 1,915 / 73 | Qwen3 |
+| 15 | [unsloth/Qwen2.5-7B-Instruct](https://huggingface.co/unsloth/Qwen2.5-7B-Instruct) | 5,725 | 5,674 | 682 | 4,914 / 772 / 37 / 2 | Qwen2.5 |
+| 16 | [FacebookAI/xlm-roberta-base](https://huggingface.co/FacebookAI/xlm-roberta-base) | 4,838 | 4,470 | 199 | 4,627 / 79 / 131 / 0 | XLM-RoBERTa |
+| 17 | [google/gemma-3-4b-pt](https://huggingface.co/google/gemma-3-4b-pt) | 6,919 | 406 | 551 | 4,585 / 1,084 / 1,234 / 16 | Gemma 3 |
+| 18 | [meta-llama/Meta-Llama-3-8B](https://huggingface.co/meta-llama/Meta-Llama-3-8B) | 10,264 | 1,726 | 97 | 4,245 / 2,072 / 2,974 / 973 | Llama 3 |
+| 19 | [Qwen/Qwen3-0.6B-Base](https://huggingface.co/Qwen/Qwen3-0.6B-Base) | 7,306 | 1,026 | 1,797 | 4,159 / 1,167 / 1,923 / 57 | Qwen3 |
+| 20 | [openai/whisper-small](https://huggingface.co/openai/whisper-small) | 4,865 | 4,505 | 344 | 4,144 / 365 / 356 / 0 | Whisper |
+| 21 | [aubmindlab/bert-base-arabertv02](https://huggingface.co/aubmindlab/bert-base-arabertv02) | 4,120 | 4,063 | 17 | 4,108 / 5 / 7 / 0 | BERT |
+| 22 | [Qwen/Qwen2.5-3B](https://huggingface.co/Qwen/Qwen2.5-3B) | 8,863 | 1,151 | 1,173 | 3,996 / 3,256 / 1,553 / 58 | Qwen2.5 |
+| 23 | [meta-llama/Llama-3.2-3B-Instruct](https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct) | 7,515 | 3,560 | 471 | 3,983 / 1,620 / 1,800 / 112 | Llama 3.2 |
+| 24 | [Qwen/Qwen3-8B](https://huggingface.co/Qwen/Qwen3-8B) | 8,482 | 5,504 | 1,479 | 3,890 / 2,935 / 1,587 / 69 | Qwen3 |
+| 25 | [Qwen/Qwen3-4B-Instruct-2507](https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507) | 11,536 | 9,150 | 1,581 | 3,706 / 6,575 / 1,164 / 91 | Qwen3 |
 
 ## Families
 
@@ -154,31 +154,31 @@ Roots grouped by series name across organizations (so `unsloth/Llama-3.1-8B` re-
 
 | # | Family | Descendants | Last 90d | Roots | Finetune / adapter / quantized / merge | Biggest root |
 |---:|---|---:|---:|---:|---|---|
-| 1 | **Qwen2.5** | 72,875 | 8,176 | 688 | 35,148 / 20,939 / 15,154 / 1,634 | [Qwen/Qwen2.5-7B](https://huggingface.co/Qwen/Qwen2.5-7B) |
-| 2 | **Qwen1.5** | 71,027 | 9 | 45 | 224 / 70,435 / 352 / 16 | [Qwen/Qwen1.5-0.5B](https://huggingface.co/Qwen/Qwen1.5-0.5B) |
-| 3 | **Qwen3** | 58,453 | 10,625 | 659 | 26,027 / 18,249 / 13,742 / 433 | [Qwen/Qwen3-4B-Instruct-2507](https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507) |
-| 4 | **FLUX.1** | 44,185 | 244 | 16 | 790 / 43,175 / 203 / 17 | [black-forest-labs/FLUX.1-dev](https://huggingface.co/black-forest-labs/FLUX.1-dev) |
-| 5 | **Gemma 1** | 37,092 | 63 | 185 | 1,761 / 34,369 / 894 / 68 | [google/gemma-2b](https://huggingface.co/google/gemma-2b) |
-| 6 | **Mistral** | 36,713 | 929 | 586 | 10,670 / 11,287 / 11,801 / 2,939 | [mistralai/Mistral-7B-v0.1](https://huggingface.co/mistralai/Mistral-7B-v0.1) |
-| 7 | **Llama 3.1** | 28,457 | 1,730 | 223 | 11,123 / 7,130 / 8,265 / 1,939 | [meta-llama/Llama-3.1-8B](https://huggingface.co/meta-llama/Llama-3.1-8B) |
-| 8 | **Qwen3.5** | 25,342 | 12,518 | 159 | 9,975 / 5,763 / 9,320 / 283 | [Qwen/Qwen3.5-9B-Base](https://huggingface.co/Qwen/Qwen3.5-9B-Base) |
-| 9 | **Llama 3** | 24,244 | 362 | 544 | 8,113 / 5,876 / 7,794 / 2,461 | [meta-llama/Meta-Llama-3-8B](https://huggingface.co/meta-llama/Meta-Llama-3-8B) |
-| 10 | **BERT** | 23,722 | 927 | 308 | 22,860 / 514 / 340 / 8 | [google-bert/bert-base-uncased](https://huggingface.co/google-bert/bert-base-uncased) |
-| 11 | **Llama 3.2** | 21,342 | 1,140 | 479 | 9,858 / 5,717 / 5,169 / 598 | [meta-llama/Llama-3.2-3B-Instruct](https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct) |
-| 12 | **Gemma 3** | 18,756 | 1,446 | 141 | 10,750 / 3,300 / 4,487 / 219 | [google/gemma-3-4b-pt](https://huggingface.co/google/gemma-3-4b-pt) |
-| 13 | **Stable Diffusion** | 18,185 | 600 | 31 | 3,439 / 14,558 / 114 / 74 | [stabilityai/stable-diffusion-xl-base-1.0](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0) |
-| 14 | **Whisper** | 16,157 | 1,774 | 208 | 11,864 / 2,386 / 1,899 / 8 | [openai/whisper-small](https://huggingface.co/openai/whisper-small) |
-| 15 | **DistilBERT** | 15,430 | 793 | 81 | 14,627 / 505 / 297 / 1 | [distilbert/distilbert-base-uncased](https://huggingface.co/distilbert/distilbert-base-uncased) |
-| 16 | **SmolLM2** | 14,334 | 1,991 | 61 | 11,404 / 1,721 / 1,189 / 20 | [HuggingFaceTB/SmolLM2-360M](https://huggingface.co/HuggingFaceTB/SmolLM2-360M) |
-| 17 | **Gemma 4** | 13,230 | 4,670 | 141 | 4,068 / 2,391 / 6,574 / 197 | [google/gemma-4-E4B](https://huggingface.co/google/gemma-4-E4B) |
-| 18 | **Gemma 2** | 12,419 | 371 | 226 | 5,091 / 3,264 / 3,122 / 942 | [google/gemma-2-9b](https://huggingface.co/google/gemma-2-9b) |
-| 19 | **Llama 2** | 11,673 | 253 | 412 | 2,989 / 7,091 / 1,380 / 213 | [meta-llama/Llama-2-7b-hf](https://huggingface.co/meta-llama/Llama-2-7b-hf) |
-| 20 | **Qwen2** | 10,833 | 164 | 164 | 3,198 / 6,052 / 1,495 / 88 | [Qwen/Qwen2-0.5B](https://huggingface.co/Qwen/Qwen2-0.5B) |
-| 21 | **DeepSeek-R1** | 9,162 | 548 | 130 | 2,902 / 1,539 / 3,823 / 898 | [deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B) |
-| 22 | **Qwen3.8** | 8,709 | 6,626 | 73 | 1,897 / 634 / 6,057 / 121 | [Qwen/Qwen3.8-27B](https://huggingface.co/Qwen/Qwen3.8-27B) |
-| 23 | **Qwen3.6** | 6,527 | 1,629 | 54 | 1,315 / 1,200 / 3,910 / 95 | [Qwen/Qwen3.6-35B-A3B](https://huggingface.co/Qwen/Qwen3.6-35B-A3B) |
-| 24 | **XLM-RoBERTa** | 6,509 | 364 | 49 | 6,169 / 138 / 201 / 0 | [FacebookAI/xlm-roberta-base](https://huggingface.co/FacebookAI/xlm-roberta-base) |
-| 25 | **ViT** | 6,162 | 187 | 74 | 5,262 / 753 / 147 / 0 | [google/vit-base-patch16-224-in21k](https://huggingface.co/google/vit-base-patch16-224-in21k) |
+| 1 | **Qwen2.5** | 72,879 | 8,321 | 720 | 35,203 / 21,055 / 15,071 / 1,550 | [Qwen/Qwen2.5-7B](https://huggingface.co/Qwen/Qwen2.5-7B) |
+| 2 | **Qwen1.5** | 71,031 | 13 | 45 | 224 / 70,435 / 356 / 16 | [Qwen/Qwen1.5-0.5B](https://huggingface.co/Qwen/Qwen1.5-0.5B) |
+| 3 | **Qwen3** | 58,702 | 10,721 | 678 | 26,145 / 18,319 / 13,789 / 447 | [Qwen/Qwen3-4B-Instruct-2507](https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507) |
+| 4 | **FLUX.1** | 44,158 | 244 | 16 | 790 / 43,148 / 203 / 17 | [black-forest-labs/FLUX.1-dev](https://huggingface.co/black-forest-labs/FLUX.1-dev) |
+| 5 | **Gemma 1** | 37,095 | 66 | 185 | 1,763 / 34,370 / 894 / 68 | [google/gemma-2b](https://huggingface.co/google/gemma-2b) |
+| 6 | **Mistral** | 36,729 | 942 | 587 | 10,682 / 11,286 / 11,806 / 2,939 | [mistralai/Mistral-7B-v0.1](https://huggingface.co/mistralai/Mistral-7B-v0.1) |
+| 7 | **Llama 3.1** | 28,447 | 1,744 | 235 | 11,136 / 7,145 / 8,244 / 1,922 | [meta-llama/Llama-3.1-8B](https://huggingface.co/meta-llama/Llama-3.1-8B) |
+| 8 | **Qwen3.5** | 25,708 | 12,826 | 160 | 10,176 / 5,834 / 9,409 / 288 | [Qwen/Qwen3.5-9B-Base](https://huggingface.co/Qwen/Qwen3.5-9B-Base) |
+| 9 | **Llama 3** | 24,221 | 391 | 550 | 8,137 / 5,878 / 7,759 / 2,447 | [meta-llama/Meta-Llama-3-8B](https://huggingface.co/meta-llama/Meta-Llama-3-8B) |
+| 10 | **BERT** | 23,687 | 931 | 308 | 22,872 / 466 / 341 / 8 | [google-bert/bert-base-uncased](https://huggingface.co/google-bert/bert-base-uncased) |
+| 11 | **Llama 3.2** | 21,289 | 1,157 | 506 | 9,877 / 5,717 / 5,137 / 558 | [meta-llama/Llama-3.2-3B-Instruct](https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct) |
+| 12 | **Gemma 3** | 18,811 | 1,462 | 141 | 10,760 / 3,345 / 4,487 / 219 | [google/gemma-3-4b-pt](https://huggingface.co/google/gemma-3-4b-pt) |
+| 13 | **Stable Diffusion** | 18,191 | 606 | 31 | 3,443 / 14,559 / 115 / 74 | [stabilityai/stable-diffusion-xl-base-1.0](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0) |
+| 14 | **Whisper** | 16,186 | 1,789 | 208 | 11,883 / 2,387 / 1,908 / 8 | [openai/whisper-small](https://huggingface.co/openai/whisper-small) |
+| 15 | **DistilBERT** | 15,455 | 813 | 81 | 14,648 / 506 / 300 / 1 | [distilbert/distilbert-base-uncased](https://huggingface.co/distilbert/distilbert-base-uncased) |
+| 16 | **SmolLM2** | 14,374 | 2,022 | 63 | 11,437 / 1,729 / 1,190 / 18 | [HuggingFaceTB/SmolLM2-360M](https://huggingface.co/HuggingFaceTB/SmolLM2-360M) |
+| 17 | **Gemma 4** | 13,388 | 4,800 | 142 | 4,128 / 2,416 / 6,641 / 203 | [google/gemma-4-E4B](https://huggingface.co/google/gemma-4-E4B) |
+| 18 | **Gemma 2** | 12,403 | 379 | 230 | 5,097 / 3,266 / 3,106 / 934 | [google/gemma-2-9b](https://huggingface.co/google/gemma-2-9b) |
+| 19 | **Llama 2** | 11,685 | 263 | 412 | 2,997 / 7,094 / 1,381 / 213 | [meta-llama/Llama-2-7b-hf](https://huggingface.co/meta-llama/Llama-2-7b-hf) |
+| 20 | **Qwen2** | 10,835 | 166 | 167 | 3,201 / 6,052 / 1,496 / 86 | [Qwen/Qwen2-0.5B](https://huggingface.co/Qwen/Qwen2-0.5B) |
+| 21 | **DeepSeek-R1** | 9,041 | 570 | 130 | 2,918 / 1,540 / 3,736 / 847 | [deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B) |
+| 22 | **Qwen3.8** | 8,916 | 6,756 | 73 | 1,972 / 646 / 6,169 / 129 | [Qwen/Qwen3.8-27B](https://huggingface.co/Qwen/Qwen3.8-27B) |
+| 23 | **Qwen3.6** | 6,557 | 1,650 | 55 | 1,322 / 1,204 / 3,928 / 96 | [Qwen/Qwen3.6-35B-A3B](https://huggingface.co/Qwen/Qwen3.6-35B-A3B) |
+| 24 | **XLM-RoBERTa** | 6,515 | 365 | 49 | 6,174 / 138 / 202 / 0 | [FacebookAI/xlm-roberta-base](https://huggingface.co/FacebookAI/xlm-roberta-base) |
+| 25 | **ViT** | 6,165 | 189 | 74 | 5,264 / 754 / 147 / 0 | [google/vit-base-patch16-224-in21k](https://huggingface.co/google/vit-base-patch16-224-in21k) |
 
 ## Organizations
 
@@ -186,21 +186,21 @@ Descendants of every root owned by the organization, deduplicated. [Full table �
 
 | # | Organization | Descendants of its roots | Last 90d | Roots | Biggest root |
 |---:|---|---:|---:|---:|---|
-| 1 | [Qwen](https://huggingface.co/Qwen) | 252,073 | 40,877 | 149 | [Qwen/Qwen1.5-0.5B](https://huggingface.co/Qwen/Qwen1.5-0.5B) |
-| 2 | [google](https://huggingface.co/google) | 95,183 | 8,211 | 330 | [google/gemma-2b](https://huggingface.co/google/gemma-2b) |
-| 3 | [meta-llama](https://huggingface.co/meta-llama) | 69,435 | 3,336 | 51 | [meta-llama/Llama-3.1-8B](https://huggingface.co/meta-llama/Llama-3.1-8B) |
-| 4 | [black-forest-labs](https://huggingface.co/black-forest-labs) | 46,315 | 793 | 20 | [black-forest-labs/FLUX.1-dev](https://huggingface.co/black-forest-labs/FLUX.1-dev) |
-| 5 | [mistralai](https://huggingface.co/mistralai) | 33,152 | 1,325 | 33 | [mistralai/Mistral-7B-v0.1](https://huggingface.co/mistralai/Mistral-7B-v0.1) |
-| 6 | [unsloth](https://huggingface.co/unsloth) | 24,262 | 253 | 270 | [unsloth/llama-3-8b-Instruct-bnb-4bit](https://huggingface.co/unsloth/llama-3-8b-Instruct-bnb-4bit) |
-| 7 | [microsoft](https://huggingface.co/microsoft) | 22,829 | 1,194 | 261 | [microsoft/Phi-3-mini-4k-instruct](https://huggingface.co/microsoft/Phi-3-mini-4k-instruct) |
-| 8 | [openai](https://huggingface.co/openai) | 19,980 | 2,092 | 21 | [openai/whisper-small](https://huggingface.co/openai/whisper-small) |
-| 9 | [facebook](https://huggingface.co/facebook) | 18,260 | 1,356 | 510 | [facebook/wav2vec2-base](https://huggingface.co/facebook/wav2vec2-base) |
-| 10 | [distilbert](https://huggingface.co/distilbert) | 17,790 | 908 | 9 | [distilbert/distilbert-base-uncased](https://huggingface.co/distilbert/distilbert-base-uncased) |
-| 11 | [HuggingFaceTB](https://huggingface.co/HuggingFaceTB) | 17,052 | 2,216 | 29 | [HuggingFaceTB/SmolLM2-360M](https://huggingface.co/HuggingFaceTB/SmolLM2-360M) |
-| 12 | [stabilityai](https://huggingface.co/stabilityai) | 15,400 | 385 | 73 | [stabilityai/stable-diffusion-xl-base-1.0](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0) |
-| 13 | [google-bert](https://huggingface.co/google-bert) | 15,017 | 591 | 12 | [google-bert/bert-base-uncased](https://huggingface.co/google-bert/bert-base-uncased) |
-| 14 | [deepseek-ai](https://huggingface.co/deepseek-ai) | 14,856 | 1,591 | 79 | [deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B) |
-| 15 | [FacebookAI](https://huggingface.co/FacebookAI) | 10,157 | 521 | 19 | [FacebookAI/xlm-roberta-base](https://huggingface.co/FacebookAI/xlm-roberta-base) |
+| 1 | [Qwen](https://huggingface.co/Qwen) | 252,911 | 41,716 | 149 | [Qwen/Qwen1.5-0.5B](https://huggingface.co/Qwen/Qwen1.5-0.5B) |
+| 2 | [google](https://huggingface.co/google) | 95,428 | 8,424 | 330 | [google/gemma-2b](https://huggingface.co/google/gemma-2b) |
+| 3 | [meta-llama](https://huggingface.co/meta-llama) | 69,284 | 3,401 | 50 | [meta-llama/Llama-3.1-8B](https://huggingface.co/meta-llama/Llama-3.1-8B) |
+| 4 | [black-forest-labs](https://huggingface.co/black-forest-labs) | 46,294 | 798 | 20 | [black-forest-labs/FLUX.1-dev](https://huggingface.co/black-forest-labs/FLUX.1-dev) |
+| 5 | [mistralai](https://huggingface.co/mistralai) | 33,168 | 1,341 | 33 | [mistralai/Mistral-7B-v0.1](https://huggingface.co/mistralai/Mistral-7B-v0.1) |
+| 6 | [unsloth](https://huggingface.co/unsloth) | 24,154 | 253 | 273 | [unsloth/llama-3-8b-Instruct-bnb-4bit](https://huggingface.co/unsloth/llama-3-8b-Instruct-bnb-4bit) |
+| 7 | [microsoft](https://huggingface.co/microsoft) | 22,747 | 1,203 | 259 | [microsoft/Phi-3-mini-4k-instruct](https://huggingface.co/microsoft/Phi-3-mini-4k-instruct) |
+| 8 | [openai](https://huggingface.co/openai) | 20,010 | 2,106 | 21 | [openai/whisper-small](https://huggingface.co/openai/whisper-small) |
+| 9 | [facebook](https://huggingface.co/facebook) | 18,286 | 1,351 | 510 | [facebook/wav2vec2-base](https://huggingface.co/facebook/wav2vec2-base) |
+| 10 | [distilbert](https://huggingface.co/distilbert) | 17,821 | 933 | 9 | [distilbert/distilbert-base-uncased](https://huggingface.co/distilbert/distilbert-base-uncased) |
+| 11 | [HuggingFaceTB](https://huggingface.co/HuggingFaceTB) | 17,098 | 2,250 | 29 | [HuggingFaceTB/SmolLM2-360M](https://huggingface.co/HuggingFaceTB/SmolLM2-360M) |
+| 12 | [stabilityai](https://huggingface.co/stabilityai) | 15,406 | 392 | 73 | [stabilityai/stable-diffusion-xl-base-1.0](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0) |
+| 13 | [google-bert](https://huggingface.co/google-bert) | 15,027 | 594 | 12 | [google-bert/bert-base-uncased](https://huggingface.co/google-bert/bert-base-uncased) |
+| 14 | [deepseek-ai](https://huggingface.co/deepseek-ai) | 14,760 | 1,634 | 79 | [deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B) |
+| 15 | [FacebookAI](https://huggingface.co/FacebookAI) | 10,163 | 521 | 19 | [FacebookAI/xlm-roberta-base](https://huggingface.co/FacebookAI/xlm-roberta-base) |
 
 ## How it works
 
@@ -215,7 +215,7 @@ Descendants of every root owned by the organization, deduplicated. [Full table �
 
 - **Declared ancestry only.** 29% of models declare a base. Untagged re-uploads and GGUF conversions without metadata are invisible, so every number is a floor.
 - **Activity, not quality.** A base with 30,000 adapters was mostly a tutorial default. Read the finetune-only and 90-day tables alongside the all-time one.
-- **Ghost parents.** 4,445 referenced bases are no longer public. They stay in the tree, marked †.
+- **Ghost parents.** 4,724 referenced bases are no longer public. They stay in the tree, marked †.
 - **Families are heuristic.** Series detection is a regex over names. Fix a wrong grouping by editing `data/families.yaml`.
 
 ## Data files
@@ -247,4 +247,4 @@ uv run pytest
 
 Code MIT. Generated data CC BY 4.0, derived from Hub metadata via `cfahlgren1/hub-stats` (Apache-2.0).
 
-*Generated 2026-11-27.*
+*Generated 2026-11-28.*
